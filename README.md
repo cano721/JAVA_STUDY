@@ -59,39 +59,36 @@
 
   * 사용가능 언어 : 중 - Python, 하 - Java,C++,Kotlin
   * Contact : cano721@naver.com
-
 * (shj78) -  <img src="./md-images/shj78.png" height = "30" width="30">
 
   * 사용가능 언어: 
 
   * Contact: 
-
 * (wlghsp) - <img src="./md-images/wlghsp.png" height = "30" width="30">
 
   * 사용가능 언어: 
   * Contact: 
-
 * (bear1230) - <img src="md-images/bear1230.png" height = "30" width="30">
 
   * 사용가능 언어: 
   * Contact: 
-
 * (jeeyani) - <img src="./md-images/jeeyani.png" height = "30" width="30">
 
   * 사용가능 언어: 
   * Contact: 
-
 * (Lela12) -  <img src="./md-images/Lela12.png" height = "30" width="30"> 
 
   * 사용가능 언어: 
   * Contact: 
-
 * (sunminyz) - <img src="./md-images/sunminyz.png" height = "30" width="30">
 
   * 사용가능 언어: 
   * Contact: 
-
 * (1223gogo) - <img src="./md-images/1223gogo.png" height = "30" width="30">
+
+  * 사용가능 언어: 
+  * Contact: 
+* (hwihwi99) - <img src="./md-images/hwihwi99.png" height = "30" width="30">
 
   * 사용가능 언어: 
   * Contact: 
