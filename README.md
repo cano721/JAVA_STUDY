@@ -34,7 +34,7 @@
 
   * git 생성
 
-    1. git clone https://github.com/sohn0356-git/algorithm_study.git
+    1. git clone https://github.com/cano721/JAVA_STUDY.git
 
   * local에 받아진 폴더에서 파일 수정
     1. git add . 
