@@ -14,6 +14,8 @@
 
 * 과제 commit시 commit msg로 꼭 작성날짜 입력해주기
 
+  * ex) '2021-10-19 블랙잭'
+
 * cf) 1초가 걸리는 입력의 크기
 
   • O(N):1억
@@ -37,8 +39,8 @@
   * local에 받아진 폴더에서 파일 수정
     1. git add . 
     2. git commit -m '커밋 메시지'
-    3. git pull origin master   
-    4. git push origin master   (본인 깃헙 계정으로)
+    3. git pull origin main  
+    4. git push origin main  (본인 깃헙 계정으로)
 
 * 백준 solved.ac 추가하는 법
 
