@@ -66,12 +66,12 @@
   * Contact: 
 * (wlghsp) - <img src="./md-images/wlghsp.png" height = "30" width="30">
 
-  * 사용가능 언어: 중 - C++, C# / 하 - Java, Python
-  * Contact: oioifor@naver.com
-* (bear1230) - <img src="md-images/bear1230.png" height = "30" width="30">
-
   * 사용가능 언어: 
   * Contact: 
+* (bear1230) - <img src="md-images/bear1230.png" height = "30" width="30">
+
+  * 사용가능 언어: 중 - C++, C# / 하 - Java, Python
+  * Contact: oioifor@naver.com
 * (jeeyani) - <img src="./md-images/jeeyani.png" height = "30" width="30">
 
   * 사용가능 언어: 중 - Java, 하 - C++
