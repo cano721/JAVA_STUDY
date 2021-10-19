@@ -10,12 +10,6 @@
 
 * 다른 사람의 코드에 의견을 제시하고 싶을 경우 { 상대방이름 } _ { 자기이름 }의 branch 생성 후 PR하기
 
-* 몸풀기 문제 [1번](https://www.acmicpc.net/problem/2588), [2번](https://www.acmicpc.net/problem/10872), [3번](https://www.acmicpc.net/problem/2562), [4번](https://www.acmicpc.net/problem/2751), [5번](https://www.acmicpc.net/problem/1697), [6번](https://www.acmicpc.net/problem/1520)을 **눈으로** 풀어보고 자기 이름 옆에 본인이 풀 수 있을 것 같은
-
-  문제 갯수 적기(목표는 모든 참가자가 이 문제들 다 풀 수 있는 수준)
-
-* 자신의 주 언어(알고리즘 문제를 풀 때 사용할)를 기록하기
-
 * 과제 commit시 commit msg로 꼭 작성날짜 입력해주기
 
 * cf) 1초가 걸리는 입력의 크기
@@ -84,6 +78,11 @@
   * Contact: 
 
 * (Lela12) -  <img src="./md-images/Lela12.png" height = "30" width="30"> 
+
+  * 사용가능 언어: 
+  * Contact: 
+
+* (sunminyz) - <img src="./md-images/sunminyz.png" height = "30" width="30">
 
   * 사용가능 언어: 
   * Contact: 
