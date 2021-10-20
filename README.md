@@ -61,9 +61,9 @@
   * Contact : cano721@naver.com
 * (shj78) -  <img src="./md-images/shj78.png" height = "30" width="30">
 
-  * 사용가능 언어: 
+  * 사용가능 언어: JAVA
 
-  * Contact: 
+  * Contact: noodle9407@gmail.com
 * (wlghsp) - <img src="./md-images/wlghsp.png" height = "30" width="30">
 
   * 사용가능 언어: 
