@@ -6,8 +6,9 @@
       <sourceFolder url="file://$MODULE_DIR$/areum" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/haebum" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/jeeyani" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hwihwi99" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="openjdk-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
