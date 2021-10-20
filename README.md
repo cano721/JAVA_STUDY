@@ -86,12 +86,12 @@
   * Contact: 
 * (1223gogo) - <img src="./md-images/1223gogo.png" height = "30" width="30">
 
-  * 사용가능 언어: 중 - Java, C / 하 - python, C++, JavaScript
-  * Contact: chamgrace@naver.com
-* (hwihwi99) - <img src="./md-images/hwihwi99.png" height = "30" width="30">
-
   * 사용가능 언어: 
   * Contact: 
+* (hwihwi99) - <img src="./md-images/hwihwi99.png" height = "30" width="30">
+
+  * 사용가능 언어: 중 - Java, C / 하 - python, C++, JavaScript
+  * Contact: chamgrace@naver.com
 
 * (Rmi-star) - <img src="./md-images/Rmi-star.png" height = "30" width="30">
   * 사용가능 언어: 중 - Java, 하 - C++
