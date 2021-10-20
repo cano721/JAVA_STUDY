@@ -21,7 +21,7 @@ public class Boj1065_한수 {
                 int ten = (i / 10) % 10; // 십의 자리
                 int one = i % 10; // 일의 자리
 
-                if(hun-ten == ten-one) { // 각 자릿수의 차가 같으면
+                if(hun-ten == ten-one) { // 각 자릿수의 차가 같으면 → 등차수열이라면
                     cnt++;
                 }
             }
