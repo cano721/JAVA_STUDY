@@ -24,6 +24,7 @@ public class Boj7568_덩치 {
                 if(i==j)
                     continue; // 같은 사람 비교 X
 
+                // 키와 몸무게 둘 다 작은 경우에만 cnt++
                 if(info[i][0] < info[j][0] && info[i][1] < info[j][1]) {
                     cnt++;
                 }
