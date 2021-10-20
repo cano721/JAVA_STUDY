@@ -78,7 +78,7 @@
   * Contact: jeeyeon27@naver.com
 * (Lela12) -  <img src="./md-images/Lela12.png" height = "30" width="30"> 
 
-  * 사용가능 언어: 
+  * 사용가능 언어: Java
   * Contact: 
 * (sunminyz) - <img src="./md-images/sunminyz.png" height = "30" width="30">
 
