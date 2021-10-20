@@ -61,13 +61,13 @@
   * Contact : cano721@naver.com
 * (shj78) -  <img src="./md-images/shj78.png" height = "30" width="30">
 
-  * 사용가능 언어: 
+  * 사용가능 언어: JAVA
 
-  * Contact: 
+  * Contact: noodle9407@gmail.com
 * (wlghsp) - <img src="./md-images/wlghsp.png" height = "30" width="30">
 
-  * 사용가능 언어: 
-  * Contact: 
+  * 사용가능 언어: 하 - Java, Python, C++
+  * Contact: wlghsp@naver.com
 * (bear1230) - <img src="md-images/bear1230.png" height = "30" width="30">
 
   * 사용가능 언어: 중 - C++, C# / 하 - Java, Python
@@ -78,7 +78,7 @@
   * Contact: jeeyeon27@naver.com
 * (Lela12) -  <img src="./md-images/Lela12.png" height = "30" width="30"> 
 
-  * 사용가능 언어: 
+  * 사용가능 언어: Java
   * Contact: 
 * (sunminyz) - <img src="./md-images/sunminyz.png" height = "30" width="30">
 
@@ -90,10 +90,10 @@
   * Contact: 
 * (hwihwi99) - <img src="./md-images/hwihwi99.png" height = "30" width="30">
 
-  * 사용가능 언어: 
-  * Contact: 
+  * 사용가능 언어: 중 - Java, C / 하 - python, C++, JavaScript
+  * Contact: chamgrace@naver.com
 
 * (Rmi-star) - <img src="./md-images/Rmi-star.png" height = "30" width="30">
-  * 사용가능 언어: 
-  * Contact: 
+  * 사용가능 언어: 중 - Java, 하 - C++
+  * Contact: dkfma3323@gmail.com
 

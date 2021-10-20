@@ -1,4 +1,4 @@
-package jeeyani.bruteForce;
+package bruteForce;
 
 import java.io.*;
 import java.util.StringTokenizer;
