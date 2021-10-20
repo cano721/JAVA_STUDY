@@ -66,8 +66,8 @@
   * Contact: noodle9407@gmail.com
 * (wlghsp) - <img src="./md-images/wlghsp.png" height = "30" width="30">
 
-  * 사용가능 언어: 
-  * Contact: 
+  * 사용가능 언어: 하 - Java, Python, C++
+  * Contact: wlghsp@naver.com
 * (bear1230) - <img src="md-images/bear1230.png" height = "30" width="30">
 
   * 사용가능 언어: 중 - C++, C# / 하 - Java, Python
