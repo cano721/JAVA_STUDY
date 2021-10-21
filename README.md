@@ -57,7 +57,7 @@
 
 * 계해범(cano721) -  <img src="md-images/haebum.png" height = "30" width="30">
 
-  * 사용가능 언어 : 중 - Python, 하 - Java,C++,Kotlin
+  * 사용가능 언어 : 중 - Python / 하 - Java,C++,Kotlin
   * Contact : cano721@naver.com
 * (shj78) -  <img src="./md-images/shj78.png" height = "30" width="30">
 
@@ -78,16 +78,16 @@
   * Contact: jeeyeon27@naver.com
 * (Lela12) -  <img src="./md-images/Lela12.png" height = "30" width="30"> 
 
-  * 사용가능 언어: Java
-  * Contact: 
+  * 사용가능 언어: 중 - Java, Python, C / 하 - 
+  * Contact: kkchan1127@naver.com
 * (sunminyz) - <img src="./md-images/sunminyz.png" height = "30" width="30">
 
   * 사용가능 언어: 
   * Contact: 
 * (1223gogo) - <img src="./md-images/1223gogo.png" height = "30" width="30">
 
-  * 사용가능 언어: 
-  * Contact: 
+  * 사용가능 언어:  중 - Java, C++, JavaScript / 하 - python
+  * Contact: 1223gogo@naver.com
 * (hwihwi99) - <img src="./md-images/hwihwi99.png" height = "30" width="30">
 
   * 사용가능 언어: 중 - Java, C / 하 - python, C++, JavaScript
