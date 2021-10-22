@@ -66,10 +66,10 @@
 
   * 사용가능 언어: 중 - Java, 하 - C++
   * Contact: jeeyeon27@naver.com
-* (Lela12) -  <img src="./md-images/Lela12.png" height = "30" width="30"> 
+* (HoYoon-Lee) -  <img src="./md-images/HoYoon-Lee.png" height = "30" width="30"> 
 
-  * 사용가능 언어: 중 - Java, 하 - C
-  * Contact: dbcocotn4@hanmail.net
+  * 사용가능 언어: 
+  * Contact: 
 * (skdmldyd23) - <img src="./md-images/skdmldyd23.png" height = "30" width="30">
 
   * 사용가능 언어: 중 - java / 하 - C, C++, C#, Python, React
@@ -86,4 +86,3 @@
 * (Rmi-star) - <img src="./md-images/Rmi-star.png" height = "30" width="30">
   * 사용가능 언어: 중 - Java, 하 - C++
   * Contact: dkfma3323@gmail.com
-
