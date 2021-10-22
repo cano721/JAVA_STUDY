@@ -18,17 +18,7 @@
 
 * cf) 1초가 걸리는 입력의 크기
 
-  • O(N):1억
-
-  • O(NlgN):5백만
-
-  • O(N^2):1만
-
-  • O(N^3): 500
-
-  • O(2^N): 20
-
-  • O(N!): 10 
+  • O(N):10^8
 
 * How to push
 
@@ -80,10 +70,10 @@
 
   * 사용가능 언어: 중 - Java, 하 - C
   * Contact: dbcocotn4@hanmail.net
-* (sunminyz) - <img src="./md-images/sunminyz.png" height = "30" width="30">
+* (skdmldyd23) - <img src="./md-images/skdmldyd23.png" height = "30" width="30">
 
-  * 사용가능 언어: 중 - Java, Python, C / 하 - 
-  * Contact: kkchan1127@naver.com
+  * 사용가능 언어: 
+  * Contact: 
 * (1223gogo) - <img src="./md-images/1223gogo.png" height = "30" width="30">
 
   * 사용가능 언어:  중 - Java, C++, JavaScript / 하 - python
