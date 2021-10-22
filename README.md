@@ -72,7 +72,7 @@
   * Contact: dbcocotn4@hanmail.net
 * (skdmldyd23) - <img src="./md-images/skdmldyd23.png" height = "30" width="30">
 
-  * 사용가능 언어: 
+  * 사용가능 언어: 중 - java / 하 - C, C++, C#, Python, React
   * Contact: 
 * (1223gogo) - <img src="./md-images/1223gogo.png" height = "30" width="30">
 
