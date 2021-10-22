@@ -36,6 +36,11 @@
 
   * solved.ac란? -> 백준 난이도 측정기 (Chrome 확장 프로그램)
   * Chrome 확장프로그램 -> 웹스토어에서 solved.ac 검색 후 설치
+  
+* 문제출제순서(2일단위 카톡 알림)
+
+  * cano721 -> shj78 -> wlghsp -> bear1230 -> jeeyani -> HoYoon-Lee -> skdmldyd23
+  * -> 1223gogo -> hwihwi99 -> Rmi-star
 
 ![캡처](md-images/108507193-4b446d00-72fd-11eb-9dab-063c7df413b2.JPG)
 

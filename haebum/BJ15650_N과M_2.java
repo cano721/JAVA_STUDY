@@ -50,7 +50,7 @@ public class BJ15650_N과M_2 {
             System.out.println();
             return 0;
         }
-
+        
         // 숫자를 돌면서 고르기
         for(int i =1; i <= n; i++){
             // 고르지 않은 숫자일때
