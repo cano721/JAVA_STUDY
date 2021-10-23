@@ -1,3 +1,13 @@
+/*
+    주어진 m*n 보드판에서 칸들을 이동하며 8*8로 잘라낸 후
+    첫 시작 컬러를 기준으로 각 칸 비교하여 색칠해야하는 칸 수 확인
+    반대 컬러 시작은 64(전체칸수)- 앞에 구한 칸수 이므로
+    둘중에 작은 숫자로 정답 바꾸기
+
+
+
+*/ 
+
 import java.util.*;
 import java.io.*;
 
@@ -15,7 +25,7 @@ public class BJ1018_체스판다시칠하기 {
 
         arr = new boolean[height][width];
 
-
+        //맵 생성
         // true false로 배열에 담기(w면 true b면 false)
         for(int i = 0; i < height; i++){
             String s = br.readLine();
