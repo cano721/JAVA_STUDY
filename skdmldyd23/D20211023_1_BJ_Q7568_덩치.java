@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BJ_Q4_7568_덩치 {
+public class D20211023_1_BJ_Q7568_덩치 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
@@ -29,7 +29,7 @@ public class BJ_Q4_7568_덩치 {
 		int cnt = 1;
 		for(int i = 0; i < wArr.length; i++) {
 			if(w < wArr[i] && h < hArr[i]) cnt++;
-		}
+		}   
 		return cnt;
 	}
 }
