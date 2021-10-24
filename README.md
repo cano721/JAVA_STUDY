@@ -104,8 +104,8 @@
   * Contact: jeeyeon27@naver.com
 * (HoYoon-Lee) -  <img src="./md-images/HoYoon-Lee.png" height = "30" width="30"> 
 
-  * 사용가능 언어: 
-  * Contact: 
+  * 사용가능 언어: 중 - Java, C, Python / 하 - Kotlin, C++, Javascript
+  * Contact: happylhy0630@naver.com
 * (skdmldyd23) - <img src="./md-images/skdmldyd23.png" height = "30" width="30">
 
   * 사용가능 언어: 중 - java / 하 - C, C++, C#, Python, React
