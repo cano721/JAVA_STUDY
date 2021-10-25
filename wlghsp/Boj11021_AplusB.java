@@ -24,7 +24,7 @@ Case #5: 7
 */
 
 
-public class boj_11021 {
+public class Boj11021_AplusB {
     
     public static void main(String[] args) throws IOException {
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
