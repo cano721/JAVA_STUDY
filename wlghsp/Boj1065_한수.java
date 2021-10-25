@@ -21,25 +21,22 @@ import java.io.OutputStreamWriter;
 
 */
 
-
-public class Boj_1065 {
+public class Boj1065_한수 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-
         int n = Integer.parseInt(br.readLine());
         int cnt = arithmetic_sequence(n);
 
-        bw.write(cnt+"\n");
+        bw.write(cnt + "\n");
         bw.flush();
-        bw.close();        
+        bw.close();
 
     }
 
-
     static int arithmetic_sequence(int num) {
-        int cnt= 0;
+        int cnt = 0;
 
         if (num < 100) {
             return num;
@@ -51,10 +48,10 @@ public class Boj_1065 {
             }
 
             for (int i = 100; i <= num; i++) {
-                int hun = i/100;  // 100의 자리수
-                int ten = (i/10)%10; // 10의 자리수
-                int one = i%10; // 1의 자리수 
-                if ((hun-ten) == (ten-one)) {
+                int hun = i / 100; // 100의 자리수
+                int ten = (i / 10) % 10; // 10의 자리수
+                int one = i % 10; // 1의 자리수
+                if ((hun - ten) == (ten - one)) {
                     cnt++;
                 }
             }
