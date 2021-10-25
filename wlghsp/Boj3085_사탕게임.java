@@ -2,7 +2,7 @@ package baekjoon;
 
 import java.util.Scanner;
 
-public class Boj_3085 {
+public class Boj3085_사탕게임 {
 
     static int max = 1, N = 0;
     static char arr[][];
