@@ -13,6 +13,7 @@ public class Main {
 		Main T = new Main();
 
         n = sc.nextInt();
+
         arr = new int[n][n];
         for(int i=0;i<n;i++) {
             String str = sc.next();
