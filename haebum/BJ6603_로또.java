@@ -2,7 +2,7 @@
     임의의 숫자 리스트중에서 k 개 뽑기
     n과 m 이용
 
-    중복 케이스 제거 및 오름차순 출력
+    중복 케이스 제거 및 오름차순 출력(주어진 집합이 오름차순 정렬되어있음)
 
 */
 
@@ -52,8 +52,9 @@ public class BJ6603_로또 {
     // 사실상 기존에 고른거+1부터 시작
     public static int solve(int stage,int pnum){
 
-        // 다 골랐을때(절반씩 팀임)
+        // 다 골랐을때
         if(stage == 6){
+            // 선택배열 돌면서 출력
             for(int i = 0; i < choice.length; i++){
                 System.out.print(choice[i] + " ");
             }
