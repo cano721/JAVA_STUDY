@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class BJ_2231_분해합_수정필요 {
+public class BJ_2231_분해합 {
 
 	static int n;
 	
@@ -14,6 +14,33 @@ public class BJ_2231_분해합_수정필요 {
 
 		n = Integer.parseInt(br.readLine());
 		
+		int i =0;
+		for (i = 0; i < n; i++) {
+			
+			int constr = i;
+			int temp = i;
+			
+			while (temp > 0) {
+				
+				constr +=temp%10;
+				temp /=10;
+				
+			}
+			
+			if(constr == n) {
+				System.out.println(i);
+				break;
+			}
+			
+		}
+		//생성자가 없을 경우!
+		if(i==n) System.out.println(0);
+		
+		
+		/*
+		 * (21.10.26) 오류
+		 */
+		/*
 		//1.자릿수 확인하기
 		int num = 0;
 		int input = n;
@@ -46,8 +73,8 @@ public class BJ_2231_분해합_수정필요 {
 		}
 		
 		System.out.println(ans);
+		*/
 
-		//이 방법은 두자리 수, 한자리 수 중 일부...오류남(21.10.26)
 	}
 
 }

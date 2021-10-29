@@ -6,13 +6,16 @@ class Main
 	{
 		int answer=0;
 		
-		str=str.toLowerCase().replaceAll("[^A-Z]","");
+		String str2=str.toLowerCase().replaceAll("[^A-Z]","");
 		
-		String temp = new StringBuilder(s).reverse().toString();
+		String temp = new StringBuilder(str2).reverse().toString();
+
 		//주어진 문자열 자체로 팰린드롬이라면 
-		if(s.equals(temp)) answer=str.length();
+		if(str2.equals(temp)) answer=str2.length();
 		else{
-		//str 마지막 한 문자만 빼고 하나씩 넣어주며 포문돌려확인
+			//str 마지막 한 문자만 빼고 하나씩 넣어주며 포문돌려확인
+			String str2 = temp.substring(0,str2.length()-1);
+			System.out.println(str2);
 		}
 
 		return answer;
