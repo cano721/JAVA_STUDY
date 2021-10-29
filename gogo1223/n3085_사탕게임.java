@@ -63,9 +63,9 @@ public class n3085_사탕게임 {
 
 	private static int checkCandy(String[][] arr, int answer) {
 		int cntX, cntY;
-		for (int x = 0; x < arr.length - 1; x++) {
+		for (int y = 0; y < arr.length; y++) {
 			cntX = 1; cntY = 1;
-			for (int y = 0; y < arr.length; y++) {
+			for (int x = 0; x < arr.length - 1; x++) {
 				//열방향체크
 				if(arr[x][y].equals(arr[x+1][y])) {
 					cntX++;
