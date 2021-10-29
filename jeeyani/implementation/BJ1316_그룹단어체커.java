@@ -3,8 +3,6 @@ package implementation;
 import java.util.Scanner;
 
 public class BJ1316_그룹단어체커 {
-
-	static boolean[] alphbat = new boolean[26];
 	
 	public static void main(String[] args) {
 		
@@ -12,36 +10,37 @@ public class BJ1316_그룹단어체커 {
 		
 		int n = sc.nextInt();
 		
-		int ans = 0;
+		int ans = n;
 		for (int i = 0; i < n; i++) {
-			String inputStr = sc.next();
-			if(check(inputStr)) {
-				ans++;
-			}
 			
+			String str = sc.next();
+			boolean[] alpt = new boolean[26];
+			
+			char chk = str.charAt(0);
+			alpt[chk-97] = true;
+			
+			for (int j = 1; j < str.length(); j++) {
+				
+				char next = str.charAt(j);
+				if(chk == next) continue;
+				
+				chk = next;
+				
+				if(alpt[next-97]) {
+					ans--;
+					//n--;   //n자체를 줄이면..for문 다 안돌자너ㅠㅠ..
+					break;
+					
+				}else {
+					alpt[next-97] = true;
+				}
+				
+			}
 			
 		}
 		System.out.println(ans);
 
 	}
 
-	private static boolean check(String inputStr) {
-		int now = inputStr.charAt(0);
-		
-		for (int j = 1; j < inputStr.length(); j++) {
-			
-			if(alphbat[now-'a']) { //이미 확인된 알파벳
-				return false;
-			}
-			else {
-				if(now != inputStr.charAt(j-1)) {
-					alphbat[now-'a'] = true;
-				}
-			}
-
-		}
-		
-		return true;
-	}
-
+	
 }
