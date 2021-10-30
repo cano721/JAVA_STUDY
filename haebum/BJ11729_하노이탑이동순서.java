@@ -44,6 +44,5 @@ public class BJ11729_하노이탑이동순서 {
 
         //n-1개 다시 이동
         move(n-1,mid,start,end);
-
     }
 }
