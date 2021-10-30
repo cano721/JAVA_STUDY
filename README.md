@@ -78,7 +78,7 @@
 **[패스권 사용]**
 
 1. shj78, wlghsp, bear1230, Rmi-star, hwihwi99
-2. bear1230
+2. bear1230, shj78
 
 
 
