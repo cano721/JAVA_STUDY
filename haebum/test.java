@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class n3085_사탕게임 {
+public class test {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
@@ -63,17 +63,17 @@ public class n3085_사탕게임 {
 
 	private static int checkCandy(String[][] arr, int answer) {
 		int cntX, cntY;
-		for (int y = 0; y < arr.length; y++) {
+		for (int x = 0; x < arr.length; x++) {
 			cntX = 1; cntY = 1;
-			for (int x = 0; x < arr.length - 1; x++) {
+			for (int y = 0; y < arr.length-1; y++) {
 				//열방향체크
-				if(arr[x][y].equals(arr[x+1][y])) {
+				if(arr[y][x].equals(arr[y+1][x])) {
 					cntX++;
 				}else {
 					cntX = 1;
 				}
 				//행방향체크
-				if(arr[y][x].equals(arr[y][x+1])) {
+				if(arr[x][y].equals(arr[x][y+1])) {
 					cntY++;
 					
 				}else {
