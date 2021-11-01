@@ -44,7 +44,7 @@
 
 * 문제출제순서(2일단위 카톡 알림)
 
-  * cano721 -> shj78 -> wlghsp -> bear1230 -> jeeyani -> HoYoon-Lee -> skdmldyd23
+  * cano721 -> icepeppermint-> wlghsp -> bear1230 -> jeeyani -> HoYoon-Lee -> skdmldyd23
   * -> 1223gogo -> hwihwi99 -> Rmi-star
 
 * 문제 출제 / 제출 기한
@@ -53,8 +53,8 @@
   * 출제 마감 시간 다음날 08시로 설정(32시간)
 
 * 문제 출제
-  * 백준 기준 브론즈X~실버X
-  * 브루트포스,재귀(백트래킹)
+  * 백준 기준 실버X~골드X
+  * 브루트포스,재귀(백트래킹), DFS & BFS
 
 * 벌금
   * 한 문제라도 미제출 시 벌금 2000원
@@ -75,10 +75,10 @@
 
 
 
-**[패스권 사용]**
+**[10월 패스권 사용]**
 
-1. shj78, wlghsp, bear1230, Rmi-star, hwihwi99
-2. bear1230, shj78
+1. wlghsp, bear1230, Rmi-star, hwihwi99, skdmldyd23
+2. bear1230
 
 
 
@@ -94,11 +94,11 @@
 
   * 사용가능 언어 : 중 - Python / 하 - Java,C++,Kotlin
   * Contact : cano721@naver.com
-* (shj78) -  <img src="./md-images/shj78.png" height = "30" width="30">
+* (icepeppermint) -  <img src="md-images/icepeppermint.png" height = "30" width="30">
 
-  * 사용가능 언어: JAVA
+  * 사용가능 언어: 
 
-  * Contact: noodle9407@gmail.com
+  * Contact: 
 * (wlghsp) - <img src="./md-images/wlghsp.png" height = "30" width="30">
 
   * 사용가능 언어: 하 - Java, Python, C++
