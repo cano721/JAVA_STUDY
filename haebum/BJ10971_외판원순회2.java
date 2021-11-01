@@ -18,7 +18,6 @@ public class BJ10971_외판원순회2 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
-        // 퇴사날짜-1
         n = Integer.parseInt(br.readLine());
         
         // 배열크기 생성
