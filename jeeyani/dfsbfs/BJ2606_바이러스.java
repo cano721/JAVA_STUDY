@@ -45,7 +45,7 @@ public class BJ2606_바이러스 {
 			int x = q.poll();
 			
 			//n까지 포함해야함!
-			for (int i = 1; i <= n; i++) {	
+			for (int i = 1; i <= n; i++) {
 				
 				//방문하지 않은 곳 && 연결되어 있는 컴퓨터
 				if(!visited[i] && computerLink[x][i]==1) {
