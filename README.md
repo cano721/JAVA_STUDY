@@ -44,7 +44,7 @@
 
 * 문제출제순서(2일단위 카톡 알림)
 
-  * cano721 -> icepeppermint-> wlghsp -> bear1230 -> jeeyani -> HoYoon-Lee -> skdmldyd23
+  * cano721 -> wlghsp -> bear1230 -> jeeyani -> HoYoon-Lee -> skdmldyd23
   * -> 1223gogo -> hwihwi99 -> Rmi-star
 
 * 문제 출제 / 제출 기한
@@ -94,10 +94,7 @@
 
   * 사용가능 언어 : 중 - Python / 하 - Java,C++,Kotlin
   * Contact : cano721@naver.com
-* (icepeppermint) -  <img src="md-images/icepeppermint.png" height = "30" width="30">
 
-  * 사용가능 언어: 하 - Java
-  * Contact: suyeong.hong@gmail.com
 * (wlghsp) - <img src="./md-images/wlghsp.png" height = "30" width="30">
 
   * 사용가능 언어: 하 - Java, Python, C++
