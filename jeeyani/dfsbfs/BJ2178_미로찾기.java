@@ -52,7 +52,7 @@ public class BJ2178_미로찾기 {
 		}
 		
 		//getMinCourseDFS(0,0,1);
-		//System.out.println(min);
+		//System.out.println(min); 
 		
 		System.out.println(getMinCourseBFS(0,0));
 		
