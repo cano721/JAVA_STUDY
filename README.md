@@ -44,7 +44,7 @@
 
 * 문제출제순서(2일단위 카톡 알림)
 
-  * cano721 -> icepeppermint-> wlghsp -> bear1230 -> jeeyani -> HoYoon-Lee -> skdmldyd23
+  * cano721 -> wlghsp -> bear1230 -> jeeyani -> HoYoon-Lee -> skdmldyd23
   * -> 1223gogo -> hwihwi99 -> Rmi-star
 
 * 문제 출제 / 제출 기한
