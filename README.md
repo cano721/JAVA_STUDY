@@ -94,10 +94,7 @@
 
   * 사용가능 언어 : 중 - Python / 하 - Java,C++,Kotlin
   * Contact : cano721@naver.com
-* (icepeppermint) -  <img src="md-images/icepeppermint.png" height = "30" width="30">
 
-  * 사용가능 언어: 하 - Java
-  * Contact: suyeong.hong@gmail.com
 * (wlghsp) - <img src="./md-images/wlghsp.png" height = "30" width="30">
 
   * 사용가능 언어: 하 - Java, Python, C++
