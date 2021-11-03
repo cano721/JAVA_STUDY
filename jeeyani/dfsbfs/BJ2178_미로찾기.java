@@ -25,7 +25,7 @@ public class BJ2178_미로찾기 {
 
 	static int n;
 	static int m;
-	static int[][] map;
+	static int[][] map = new int[201][201];
 	static boolean[][] visited;
 	static int min = Integer.MAX_VALUE;
 	
@@ -41,12 +41,12 @@ public class BJ2178_미로찾기 {
 		m = sc.nextInt();
 		sc.nextLine();
 		
-		map = new int[n][m];
+		//map = new int[n][m];
 		visited = new boolean[n][m];
 		
 		for (int i = 0; i < n; i++) {
-			String temp = sc.next();
-			for (int j = 0; j < n; j++) {
+			String temp = sc.nextLine();
+			for (int j = 0; j < m; j++) {
 				map[i][j] = temp.charAt(j)-'0';
 			}
 		}
