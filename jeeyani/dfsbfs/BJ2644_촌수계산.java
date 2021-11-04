@@ -17,10 +17,14 @@ public class BJ2644_촌수계산 {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		m = sc.nextInt();
+		
+		familyLink = new int[n+1][n+1];
+		visited = new int[n+1];
+		
 		/*
 		 * 그래프 형식으로 가족연결관계를 저장
 		 */
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < m; i++) {
 			
 			int x = sc.nextInt();
 			int y = sc.nextInt();
@@ -53,8 +57,8 @@ public class BJ2644_촌수계산 {
 			for (int i = 1; i <= n; i++) {
 				
 				if(visited[i]==0 && familyLink[x][i]==1) {
-					q.offer(i);
 					visited[i] = visited[x]+1;
+					q.offer(i);
 				}
 				
 			}
