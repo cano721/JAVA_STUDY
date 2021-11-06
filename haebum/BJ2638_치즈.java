@@ -47,11 +47,15 @@ public class BJ2638_치즈 {
 
         while(true){
             bfs();
+            // 치즈 녹인 개수 반환
             int num = melt();
+            // 비지티드 초기화
             for(int i = 0; i < n; i++){
                 Arrays.fill(visited[i],0);
             }
+            // 치즈 녹인 개수가 0개이면 와일문 종료
             if(num == 0) break;
+            // 시간 증가
             answer++;
         }
         System.out.println(answer);
