@@ -110,7 +110,7 @@
 
   * 사용가능 언어: 중 - Java, C, Python / 하 - Kotlin, C++, Javascript
   * Contact: happylhy0630@naver.com
-* (YHT) - <img src="./md-images/YHT.png" height = "30" width="30">
+* (yht0827) - <img src="./md-images/YHT.png" height = "30" width="30">
 
   * 사용가능 언어: 중 - Java / 하 - Python
   * Contact: yangheetae0827@naver.com
