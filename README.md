@@ -112,8 +112,8 @@
   * Contact: happylhy0630@naver.com
 * (YHT) - <img src="./md-images/YHT.png" height = "30" width="30">
 
-  * 사용가능 언어: 
-  * Contact: 
+  * 사용가능 언어: 중 - Java / 하 - Python
+  * Contact: yangheetae0827@naver.com
 * (1223gogo) - <img src="./md-images/1223gogo.png" height = "30" width="30">
 
   * 사용가능 언어:  중 - Java, C++, JavaScript / 하 - python
