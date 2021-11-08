@@ -44,7 +44,7 @@
 
 * 문제출제순서(2일단위 카톡 알림)
 
-  * cano721 -> wlghsp -> bear1230 -> jeeyani -> HoYoon-Lee -> skdmldyd23
+  * cano721 -> wlghsp -> bear1230 -> jeeyani -> HoYoon-Lee -> YHT
   * -> 1223gogo -> hwihwi99 -> Rmi-star -> rave189
 
 * 문제 출제 / 제출 기한
@@ -110,10 +110,10 @@
 
   * 사용가능 언어: 중 - Java, C, Python / 하 - Kotlin, C++, Javascript
   * Contact: happylhy0630@naver.com
-* (skdmldyd23) - <img src="./md-images/skdmldyd23.png" height = "30" width="30">
+* (YHT) - <img src="./md-images/YHT.png" height = "30" width="30">
 
-  * 사용가능 언어: 중 - java / 하 - C, C++, C#, Python, React
-  * Contact: skdmldyd23@naver.com
+  * 사용가능 언어: 
+  * Contact: 
 * (1223gogo) - <img src="./md-images/1223gogo.png" height = "30" width="30">
 
   * 사용가능 언어:  중 - Java, C++, JavaScript / 하 - python
