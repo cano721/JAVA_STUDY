@@ -44,8 +44,8 @@
 
 * 문제출제순서(2일단위 카톡 알림)
 
-  * cano721 -> wlghsp -> bear1230 -> jeeyani -> HoYoon-Lee -> skdmldyd23
-  * -> 1223gogo -> hwihwi99 -> Rmi-star
+  * cano721 -> wlghsp -> bear1230 -> jeeyani -> HoYoon-Lee -> YHT
+  * -> 1223gogo -> hwihwi99 -> Rmi-star -> rave189
 
 * 문제 출제 / 제출 기한
   * 20시 ~ 23시 사이에 출제
@@ -54,7 +54,7 @@
 
 * 문제 출제
   * 백준 기준 실버X~골드X
-  * 브루트포스,재귀(백트래킹), DFS & BFS
+  * 브루트포스,재귀(백트래킹), DFS & BFS, 우선순위큐
 
 * 벌금
   * 한 문제라도 미제출 시 벌금 2000원
@@ -94,7 +94,6 @@
 
   * 사용가능 언어 : 중 - Python / 하 - Java,C++,Kotlin
   * Contact : cano721@naver.com
-
 * (wlghsp) - <img src="./md-images/wlghsp.png" height = "30" width="30">
 
   * 사용가능 언어: 하 - Java, Python, C++
@@ -111,10 +110,10 @@
 
   * 사용가능 언어: 중 - Java, C, Python / 하 - Kotlin, C++, Javascript
   * Contact: happylhy0630@naver.com
-* (skdmldyd23) - <img src="./md-images/skdmldyd23.png" height = "30" width="30">
+* (yht0827) - <img src="./md-images/YHT.png" height = "30" width="30">
 
-  * 사용가능 언어: 중 - java / 하 - C, C++, C#, Python, React
-  * Contact: skdmldyd23@naver.com
+  * 사용가능 언어: 중 - Java / 하 - Python
+  * Contact: yangheetae0827@naver.com
 * (1223gogo) - <img src="./md-images/1223gogo.png" height = "30" width="30">
 
   * 사용가능 언어:  중 - Java, C++, JavaScript / 하 - python
@@ -123,7 +122,9 @@
 
   * 사용가능 언어: 중 - Java, C / 하 - python, C++, JavaScript
   * Contact: chamgrace@naver.com
-
 * (Rmi-star) - <img src="./md-images/Rmi-star.png" height = "30" width="30">
   * 사용가능 언어: 중 - Java, 하 - C++
   * Contact: dkfma3323@gmail.com
+* (rave189) - <img src="./md-images/rave189.png" height = "30" width="30">
+  * 사용가능 언어:
+  * Contact: 
