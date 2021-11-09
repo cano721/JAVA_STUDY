@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 
 
-public class BJ1927_최대힙 {
+public class BJ11279_최대힙 {
 
 	static int n;
 	static PriorityQueue<Integer> heap;
