@@ -126,5 +126,5 @@
   * 사용가능 언어: 중 - Java, 하 - C++
   * Contact: dkfma3323@gmail.com
 * (rave189) - <img src="./md-images/rave189.png" height = "30" width="30">
-  * 사용가능 언어:
-  * Contact: 
+  * 사용가능 언어: 중 - Java
+  * Contact: rave189@naver.com
