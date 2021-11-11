@@ -52,8 +52,9 @@ public class BJ11000_강의실배정 {
 			
 		});
 		
+		
 		heap = new PriorityQueue<>();
-		heap.add(time[0][1]);
+		heap.add(time[0][1]); //첫 시간 담기
 		
 		for (int i = 1; i < n; i++) {
 			//시작시간(time[i][0])이 우선순위의 종료시간(heap.peek())보다 작거나 같다면
