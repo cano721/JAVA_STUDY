@@ -45,7 +45,7 @@
 * 문제출제순서(2일단위 카톡 알림)
 
   * cano721 -> wlghsp -> bear1230 -> jeeyani -> HoYoon-Lee -> YHT
-  * -> 1223gogo -> hwihwi99 -> Rmi-star -> rave189
+  * -> 1223gogo -> bruno-> Rmi-star -> rave189
 
 * 문제 출제 / 제출 기한
   * 20시 ~ 23시 사이에 출제
@@ -118,10 +118,10 @@
 
   * 사용가능 언어:  중 - Java, C++, JavaScript / 하 - python
   * Contact: 1223gogo@naver.com
-* (hwihwi99) - <img src="./md-images/hwihwi99.png" height = "30" width="30">
+* (paul) - <img src="./md-images/paul.png" height = "30" width="30">
 
-  * 사용가능 언어: 중 - Java, C / 하 - python, C++, JavaScript
-  * Contact: chamgrace@naver.com
+  * 사용가능 언어: 
+  * Contact: 
 * (Rmi-star) - <img src="./md-images/Rmi-star.png" height = "30" width="30">
   * 사용가능 언어: 중 - Java, 하 - C++
   * Contact: dkfma3323@gmail.com
