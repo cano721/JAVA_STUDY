@@ -88,7 +88,8 @@ public class BJ19638_센티와마법의뿅망치 {
 		
 	}
 
-	private static boolean checkH() {
+	/*시간초과코드
+	 * private static boolean checkH() {
 		
 		int cnt = 0;
 		
@@ -101,6 +102,6 @@ public class BJ19638_센티와마법의뿅망치 {
 		}
 		if(cnt == n) return true;
 		else return false;
-	}
+	}*/
 
 }
