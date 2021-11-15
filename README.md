@@ -77,7 +77,7 @@
 
 **[11월 패스권 사용]**
 
-1. hwihwi99, Rmi-star
+1. Rmi-star, 1223gogo, YHT
 2. 
 
 
@@ -120,8 +120,8 @@
   * Contact: 1223gogo@naver.com
 * (paul) - <img src="./md-images/paul.png" height = "30" width="30">
 
-  * 사용가능 언어: 
-  * Contact: 
+  * 사용가능 언어: 중 - Java, C++
+  * Contact: pdh5056@gmail.com
 * (Rmi-star) - <img src="./md-images/Rmi-star.png" height = "30" width="30">
   * 사용가능 언어: 중 - Java, 하 - C++
   * Contact: dkfma3323@gmail.com
