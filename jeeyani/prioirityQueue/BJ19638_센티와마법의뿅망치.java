@@ -9,10 +9,9 @@ import java.util.StringTokenizer;
 
 public class BJ19638_센티와마법의뿅망치 {
 
-	static int n, centiH, hammerCnt, resCnt, resH;
+	static int n, centiH, hammerCnt, resCnt;
 	static int[] people;
 	static PriorityQueue<Integer> heap;
-	static String ans;
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
