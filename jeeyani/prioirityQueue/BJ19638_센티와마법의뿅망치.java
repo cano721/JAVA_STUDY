@@ -47,7 +47,8 @@ public class BJ19638_센티와마법의뿅망치 {
 			heap.add(peopleH);
 			
 			
-			/*if(peopleH ==1) {
+			/*시간초과
+			 * if(peopleH ==1) {
 				ans = "NO";
 				resH = peopleH;
 				break;
