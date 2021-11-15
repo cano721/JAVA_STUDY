@@ -77,7 +77,7 @@
 
 **[11월 패스권 사용]**
 
-1. hwihwi99, Rmi-star
+1. Rmi-star, 1223gogo, YHT
 2. 
 
 
