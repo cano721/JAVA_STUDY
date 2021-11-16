@@ -38,6 +38,7 @@ public class BJ1806_부분합 {
 				lenCnt++;
 			}
 			
+			
 			if(sum >= s) {
 				len = Math.min(len, lenCnt);
 			}
@@ -47,7 +48,13 @@ public class BJ1806_부분합 {
 			lenCnt--;
 			
 		}
-		System.out.println(len);
+		//합을 구할 수 없으면 0출력!!!! =>빼먹지마 ㅠ
+		if(len == Integer.MAX_VALUE) {
+			System.out.println(0);
+		}else {
+			System.out.println(len);
+		}
+		
 	}
 
 }
