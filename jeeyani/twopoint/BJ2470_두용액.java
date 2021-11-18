@@ -21,7 +21,7 @@ public class BJ2470_두용액 {
 			arr[i] = Integer.parseInt(st.nextToken());
 		}
 
-		//**정렬
+		//**정렬 
 		Arrays.sort(arr);
 		
 		//양쪽부터 포인터를 옮겨가며 비교
