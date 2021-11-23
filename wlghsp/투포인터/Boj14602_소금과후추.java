@@ -3,6 +3,9 @@ package baekjoon.silverⅣ;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.StringTokenizer;
 
 /*
@@ -67,13 +70,13 @@ M-W+1줄에 걸쳐 정답 행렬 B를 출력한다.
 
 */
 
-// paul 님 코드 참조. 
+
 public class Boj14602_소금과후추 {
 
+     // paul 님 코드 참조. 
     static int n, m, k, w;
     static int[][] arr = new int[31][31];
     static int[][] b = new int[31][31];
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -90,6 +93,28 @@ public class Boj14602_소금과후추 {
         }
 
         StringBuilder sb = new StringBuilder();
+        int bm = m-w + 1, bn = n - w + 1;
+        for (int i = 0; i < bm; i++) {
+            for (int j = 0; j < bn; j++) {
+                b[i][j] = median(i, j);
+                sb.append(b[i][j]).append(' ');
+            }
+            sb.append('\n');
+        }
 
+        System.out.println(sb.toString());
+
+    }
+
+    static int median(int y, int x) {
+        List<Integer> list = new ArrayList<>();
+        for (int i = y; i < y + w; i++) {
+            for (int j = x; j < x + w; j++) {
+                list.add(arr[i][j]);
+            }
+        }
+        Collections.sort(list);
+
+        return list.get(w*w/2);
     }
 }
