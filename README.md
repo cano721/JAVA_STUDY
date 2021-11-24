@@ -45,7 +45,7 @@
 * 문제출제순서(2일단위 카톡 알림)
 
   * cano721 -> wlghsp -> bear1230 -> jeeyani -> HoYoon-Lee -> YHT
-  * -> 1223gogo -> bruno-> Rmi-star -> rave189
+  * -> 1223gogo -> paul -> Rmi-star -> rave189
 
 * 문제 출제 / 제출 기한
   * 20시 ~ 23시 사이에 출제
@@ -77,7 +77,7 @@
 
 **[11월 패스권 사용]**
 
-1. Rmi-star, 1223gogo, YHT
+1. Rmi-star, 1223gogo, YHT, paul
 2. 
 
 
