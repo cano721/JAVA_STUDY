@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ5557_1학년",
+            "request": "launch",
+            "mainClass": "BJ5557_1학년",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ2565_전깃줄",
+            "request": "launch",
+            "mainClass": "BJ2565_전깃줄",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ2011_암호코드",
             "request": "launch",
             "mainClass": "BJ2011_암호코드",
