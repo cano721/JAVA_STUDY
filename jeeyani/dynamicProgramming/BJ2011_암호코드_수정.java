@@ -5,9 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BJ2011_암호코드 {
+public class BJ2011_암호코드_수정 {
 
 	static String input;
+	static int arr[];
 	static int dp[];
 	
 	/*
@@ -25,37 +26,40 @@ public class BJ2011_암호코드 {
 	 *  
 	 */
 	
-	/*런타임에러*/
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		input = br.readLine();
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		input = st.nextToken();
 		int len = input.length();
-        
-		dp = new int[len+1];
-		dp[0] = dp[1] = 1;
 		
+		arr = new int[len+1];
+		dp = new int[len+1];
+		
+		for (int i = 0; i < len; i++) {
+			arr[i+1] = input.charAt(i) -'0';
+		}
+		
+		dp[0] = 1;
 		
 		for (int i = 1; i <=len ; i++) {
 			
-			//현재위치
-			int now = i-1;
-			
 			//1.자연수일 경우
-			if(input.charAt(now) > '0') {
-				dp[i]= (dp[i]+dp[i-1]) % 1000000;
+			if(arr[i] > 0) {
+				//dp[i]= dp[i-1];
+				dp[i] = (dp[i] + dp[i - 1]) % 1000000;
 			}
 			
 			//2. 두자리 수가 10~26일 경우
-			int temp = (input.charAt(now - 1) - '0') * 10 + (input.charAt(now) - '0');
+			int temp = arr[i] + arr[i - 1] * 10;
 			if(temp >= 10 && temp <=26) {
 				dp[i]= (dp[i]+dp[i-2]) % 1000000;
-			}
+			}	
 			
 		}
 		//dp[0]은 1로 초기화를 시켜줬음으로 모순된 값이다.
 		//따라서 1인 값이 아닌 0이 나오도록 예외처리
-		System.out.println(input.equals("0") ? 0 : dp[len]);
+		System.out.println(dp[len]);
 		
 
 	}
