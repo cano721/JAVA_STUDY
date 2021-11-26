@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ15990_1_2_3더하기_5",
+            "request": "launch",
+            "mainClass": "BJ15990_1_2_3더하기_5",
+            "projectName": "haebum_3f1ec9c7"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ1535_안녕",
+            "request": "launch",
+            "mainClass": "BJ1535_안녕",
+            "projectName": "haebum_3f1ec9c7"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ15988_1_2_3더하기_3",
+            "request": "launch",
+            "mainClass": "BJ15988_1_2_3더하기_3",
+            "projectName": "haebum_3f1ec9c7"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ2156_포도주시식",
+            "request": "launch",
+            "mainClass": "BJ2156_포도주시식",
+            "projectName": "haebum_3f1ec9c7"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ5557_1학년",
             "request": "launch",
             "mainClass": "BJ5557_1학년",
