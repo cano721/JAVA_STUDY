@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ9251_LCS",
+            "request": "launch",
+            "mainClass": "BJ9251_LCS",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ15990_1_2_3더하기_5",
             "request": "launch",
             "mainClass": "BJ15990_1_2_3더하기_5",
