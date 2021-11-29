@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ14499_주사위굴리기",
+            "request": "launch",
+            "mainClass": "BJ14499_주사위굴리기",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ1309_동물원",
+            "request": "launch",
+            "mainClass": "BJ1309_동물원",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ9251_LCS",
             "request": "launch",
             "mainClass": "BJ9251_LCS",
