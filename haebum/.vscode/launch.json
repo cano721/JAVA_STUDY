@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ11726_2xN타일링",
+            "request": "launch",
+            "mainClass": "BJ11726_2xN타일링",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ16926_배열돌리기1",
+            "request": "launch",
+            "mainClass": "BJ16926_배열돌리기1",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ14499_주사위굴리기",
             "request": "launch",
             "mainClass": "BJ14499_주사위굴리기",
