@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ1495_기타리스트",
+            "request": "launch",
+            "mainClass": "BJ1495_기타리스트",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ11726_2xN타일링",
             "request": "launch",
             "mainClass": "BJ11726_2xN타일링",
