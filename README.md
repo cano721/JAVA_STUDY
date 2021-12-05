@@ -46,7 +46,7 @@
 
 * 문제출제순서(2일단위 카톡 알림)
 
-  * cano721 -> wlghsp -> bear1230 -> jeeyani -> HoYoon-Lee -> YHT
+  * cano721 -> -> bear1230 -> jeeyani -> HoYoon-Lee -> YHT
   * -> 1223gogo -> paul -> Rmi-star -> rave189
 * 문제 출제 / 제출 기한
   * 20시 ~ 23시 사이에 출제
@@ -55,6 +55,7 @@
 * 문제 출제
   * 백준 기준 실버X~골드X
   * 브루트포스,재귀(백트래킹), DFS & BFS, 우선순위큐, 투포인터&슬라이딩 윈도우, DP
+  * 다익스트라&벨만포드&플로이드워셜
 * 토의시간
   * 매주 일요일 20시
   * Discord 통해서 진행
@@ -87,14 +88,14 @@
 
 ---
 
-* 계해범(cano721) -  <img src="md-images/haebum.png" height = "30" width="30">
+* (cano721) -  <img src="md-images/haebum.png" height = "30" width="30">
 
   * 사용가능 언어 : 중 - Python / 하 - Java,C++,Kotlin
   * Contact : cano721@naver.com
-* (wlghsp) - <img src="./md-images/wlghsp.png" height = "30" width="30">
+* () - 
 
-  * 사용가능 언어: 하 - Java, Python, C++
-  * Contact: wlghsp@naver.com
+  * 사용가능 언어: 
+  * Contact: 
 * (bear1230) - <img src="md-images/bear1230.png" height = "30" width="30">
 
   * 사용가능 언어: 중 - C++, C# / 하 - Java, Python
