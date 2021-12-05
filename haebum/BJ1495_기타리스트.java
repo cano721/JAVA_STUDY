@@ -3,7 +3,7 @@
 
     dp[현재노래][볼륨크기] = 가능여부
 
-    실패 다시 풀기
+    
     
 
 */
@@ -14,7 +14,7 @@ import java.io.*;
 public class BJ1495_기타리스트 {
 
     public static long[][] dp;
-    public static long[] arr;
+    public static int[] arr;
     public static int n,s,m;
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -24,28 +24,39 @@ public class BJ1495_기타리스트 {
         n = Integer.parseInt(st.nextToken());
         s = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
-        dp = new long[n+1][2];
+        dp = new long[n+1][m+1];
+        dp[0][s]++;
 
-
-        arr = new long[n+1];
-        StringTokenizer st2 = new StringTokenizer(br.readLine());
+        arr = new int[n+1];
+        st = new StringTokenizer(br.readLine());
         for(int i = 1; i < n+1; i++){
-            arr[i] = Integer.parseInt(st2.nextToken());
+            arr[i] = Integer.parseInt(st.nextToken());
         }
 
         bottomUp();
-        if(dp[n][0] == -1 && dp[n][1] == -1){
-            bw.write(-1 + "\n");
-        }else{
-            bw.write(Math.max(dp[n][0],dp[n][1]) + "\n");
+        for(int i = m; i >= 0; i--){
+            if(dp[n][i] != 0){
+                System.out.println(i);
+                return;
+            }
         }
-        bw.flush();
-        bw.close();
+        System.out.println(-1);
     }
     //바텀업방식
     public static void bottomUp(){
-        for(int i = 0; i < n+1; i++){
-            
+        for(int i = 1; i <= n; i++){
+            for( int j = 0; j <= m; j++){
+                // 해당 가능한게 없으면
+                if(dp[i-1][j] == 0) continue;
+                // 현재곡 더한게 m보다 작거나 같으면
+                if(j + arr[i] <= m){
+                    dp[i][j+arr[i]] = 1;
+                }
+                // 현재곡 볼륨뺀게 0과 같거나 크면
+                if(j - arr[i] >= 0){
+                    dp[i][j-arr[i]] = 1;
+                }
+            }
         }
     }
 }

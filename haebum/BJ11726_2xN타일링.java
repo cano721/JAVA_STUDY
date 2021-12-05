@@ -29,6 +29,7 @@ public class BJ11726_2xN타일링 {
         bw.flush();
         bw.close();
     }
+    
     //바텀업방식
     public static void bottomUp(){
         for(int i = 1; i <=n; i++){
