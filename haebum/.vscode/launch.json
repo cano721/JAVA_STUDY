@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ1753_최단경로",
+            "request": "launch",
+            "mainClass": "BJ1753_최단경로",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ2096_내려가기",
+            "request": "launch",
+            "mainClass": "BJ2096_내려가기",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ1495_기타리스트",
             "request": "launch",
             "mainClass": "BJ1495_기타리스트",
