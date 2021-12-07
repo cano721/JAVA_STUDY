@@ -1,4 +1,4 @@
-package jeeyani.dijkstra;
+package dijkstra;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -84,7 +84,7 @@ public class BJ1753_최단경로 {
 			int ww = node.w;
 			
 			//값이 클 경우는 배제
-			if(dist[v] < ww) {
+			if(dist[vv] < ww) {
 				continue;
 			}
 			//각 간선마다 연결되어 있는 정점 탐색
