@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ1916_최소비용구하기",
+            "request": "launch",
+            "mainClass": "BJ1916_최소비용구하기",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ1753_최단경로",
             "request": "launch",
             "mainClass": "BJ1753_최단경로",
