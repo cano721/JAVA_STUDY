@@ -1,90 +1,62 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.io.*;
+import java.util.*;
 
 public class test {
 
-	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
-		StringTokenizer st = new StringTokenizer(br.readLine()); 
-		int T;
-		//테스트 개수
-		T = Integer.parseInt(st.nextToken());
-		
-		String[][] arr = new String[T][T];
-		String temp;
-		
-		for (int i = 0; i < T; i++) {
-			st = new StringTokenizer(br.readLine()); 
-			temp = st.nextToken();
-			for(int j = 0; j < T; j++) {
-				arr[i][j] = temp.split("")[j]; 
-			}
-		}
-		int answer = solution(arr);
-		System.out.println(answer);
+    
+    static class Node{
+        int num, weight;
+        public Node(int n, int w){
+            num = n;
+            weight = w;
+        }
+    }
+    static int N, M, start, dest;
+    static ArrayList<ArrayList<Node>> edges = new ArrayList<>();
+    static int[] dist;
+    public static void main(String[] args) throws Exception {
+       input();
+       int ans = dijkstra(start);
+       System.out.println(ans);
+    }
 
-	}
+    static void input() throws Exception{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        N = Integer.parseInt(br.readLine());
+        M = Integer.parseInt(br.readLine());
+        
+        dist = new int[N+1];
+        Arrays.fill(dist, Integer.MAX_VALUE);
+		for(int i = 0; i <= N; i ++){
+            edges.add(new ArrayList<Node>());
+        }
+        for(int i =0; i<M; i++){
+            StringTokenizer st= new StringTokenizer(br.readLine());
+            int from = Integer.parseInt(st.nextToken());
+            int to = Integer.parseInt(st.nextToken());
+            int w = Integer.parseInt(st.nextToken());
 
-	private static int solution(String[][] arr) {
-		int answer = 1;
-		String temp;
-		answer = checkCandy(arr, answer);
-		
-		for (int i = 0; i < arr.length - 1; i++) {
-			for (int j = 0; j < arr.length; j++) {
-				//열방향 변경
-				if(!arr[i][j].equals(arr[i+1][j])) {
-					temp = arr[i][j];
-					arr[i][j] = arr[i+1][j];
-					arr[i+1][j] = temp;
-					
-					answer = checkCandy(arr, answer);
-					
-					arr[i+1][j] = arr[i][j];
-					arr[i][j] = temp;
-				}
-				//행방향 변경
-				if(!arr[j][i].equals(arr[j][i+1])) {
-					temp = arr[j][i];
-					arr[j][i] = arr[j][i+1];
-					arr[j][i+1] = temp;
-					
-					answer = checkCandy(arr, answer);
-					
-					arr[j][i+1] = arr[j][i];
-					arr[j][i] = temp;
-				}
-			}
-		}
-		return answer;
-	}
+            edges.get(from).add(new Node(to, w));
+        }
+        StringTokenizer st= new StringTokenizer(br.readLine());
+        start = Integer.parseInt(st.nextToken());
+        dest = Integer.parseInt(st.nextToken());
+    }
 
-	private static int checkCandy(String[][] arr, int answer) {
-		int cntX, cntY;
-		for (int x = 0; x < arr.length; x++) {
-			cntX = 1; cntY = 1;
-			for (int y = 0; y < arr.length-1; y++) {
-				//열방향체크
-				if(arr[y][x].equals(arr[y+1][x])) {
-					cntX++;
-				}else {
-					cntX = 1;
-				}
-				//행방향체크
-				if(arr[x][y].equals(arr[x][y+1])) {
-					cntY++;
-					
-				}else {
-					cntY = 1;
-				}
-				if(cntX > answer) answer = cntX;
-				if(cntY > answer) answer = cntY;
-			}
-		}
-		
-		return answer;
-	}
-
+    static int dijkstra(int start){
+        dist[start] = 0;
+        PriorityQueue<Node> pq = new PriorityQueue<>( (o1,o2) -> o1.weight - o2.weight );
+        pq.add(new Node(start, 0));
+        while(!pq.isEmpty()){
+            Node cur = pq.poll();
+            if(cur.weight > dist[cur.num]) continue;
+            for(Node node : edges.get(cur.num)){   
+                if(node.weight + cur.weight > dist[node.num]) continue;
+                dist[node.num] = node.weight + cur.weight;
+                pq.add(new Node(node.num, dist[node.num]));
+            }
+        }
+        return dist[dest];
+    }
+    
 }

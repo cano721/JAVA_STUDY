@@ -22,7 +22,6 @@ public class BJ1753_최단경로 {
     public static ArrayList<ArrayList<Node>> graph = new ArrayList<>();
     public static int start,v,e;
     public static int[] dist;
-    public static boolean[] visited;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -48,7 +47,6 @@ public class BJ1753_최단경로 {
             graph.get(a).add(new Node(b,cost));
         }
 
-        visited = new boolean[v+1];
         dist = new int[v+1];
 
         Arrays.fill(dist,Integer.MAX_VALUE);
