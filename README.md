@@ -38,8 +38,8 @@
 
 - 문제출제순서(2일단위 카톡 알림)
 
-  - cano721 -> -> bear1230 -> jeeyani -> HoYoon-Lee -> YHT
-  - -> 1223gogo -> paul -> Rmi-star -> rave189 -> egg528
+  - cano721 -> bear1230 -> jeeyani -> HoYoon-Lee -> YHT
+  - -> 1223gogo -> paul  -> rave189 -> egg528 -> bo-yoon
 
 - 문제 출제 / 제출 기한
   - 20시 ~ 23시 사이에 출제
@@ -71,8 +71,8 @@
 
 **[12월 패스권 사용]**
 
-1. 1223gogo
-2.
+1. 1223gogo, egg528
+2. 
 
 ### 참가자
 
@@ -118,9 +118,9 @@
   - 사용가능 언어: 중 - Java, C++
   - Contact: pdh5056@gmail.com
 
-- (Rmi-star) - <img src="./md-images/Rmi-star.png" height = "30" width="30">
-  - 사용가능 언어: 중 - Java, 하 - C++
-  - Contact: dkfma3323@gmail.com
+- (bo-yoon) - <img src="./md-images/bo-yoon.png" height = "30" width="30">
+  - 사용가능 언어:
+  - Contact: 
 - (rave189) - <img src="./md-images/rave189.png" height = "30" width="30">
   - 사용가능 언어: 중 - Java
   - Contact: rave189@naver.com
