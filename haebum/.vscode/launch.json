@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ11657_타임머신",
+            "request": "launch",
+            "mainClass": "BJ11657_타임머신",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ1916_최소비용구하기",
             "request": "launch",
             "mainClass": "BJ1916_최소비용구하기",
