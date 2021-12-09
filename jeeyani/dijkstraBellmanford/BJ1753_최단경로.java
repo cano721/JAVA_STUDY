@@ -1,4 +1,4 @@
-package dijkstra;
+package dijkstraBellmanford;
 
 import java.io.BufferedReader;
 import java.io.IOException;
