@@ -51,7 +51,7 @@ public class test {
             Node cur = pq.poll();
             if(cur.weight > dist[cur.num]) continue;
             for(Node node : edges.get(cur.num)){   
-                if(node.weight + cur.weight > dist[node.num]) continue;
+                if(node.weight + cur.weight >= dist[node.num]) continue;
                 dist[node.num] = node.weight + cur.weight;
                 pq.add(new Node(node.num, dist[node.num]));
             }
