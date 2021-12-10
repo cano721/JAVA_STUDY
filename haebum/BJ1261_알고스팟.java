@@ -77,21 +77,14 @@ public class BJ1261_알고스팟 {
                 
                 // 맵안에 있다면
                 if(0 <= newX && newX < n && 0 <= newY && newY < m){
-                    if(map[newX][newY] == 1){
-                        // 이동한곳에 저장되어있는 벽부순값이 현재값 +1 보다 많으면 변경 큐에 추가
-                        if(dist[newX][newY] > curNode.cost +1){
-                            dist[newX][newY] = curNode.cost+1;
+                        // 이동한곳에 저장되어있는 벽부순값이 현재값(벽이 있으면 +1)보다 많으면 변경 큐에 추가
+                        if(dist[newX][newY] > curNode.cost + map[curNode.x][curNode.y]){
+                            dist[newX][newY] = curNode.cost+map[curNode.x][curNode.y];
                             q.offer(new Node(newX,newY,dist[newX][newY]));
                         }
-                    }else{
-                        // 다음에 갈곳이 이미 현재 벽부순곳보다 크다면 변경
-                        if(dist[newX][newY] > curNode.cost){
-                        dist[newX][newY] = curNode.cost;
-                        q.offer(new Node(newX,newY,dist[newX][newY]));
-                        }
-                    }
                 }
             }
         }
     }
 }
+
