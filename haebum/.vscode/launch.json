@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ1261_알고스팟",
+            "request": "launch",
+            "mainClass": "BJ1261_알고스팟",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ11657_타임머신",
             "request": "launch",
             "mainClass": "BJ11657_타임머신",
