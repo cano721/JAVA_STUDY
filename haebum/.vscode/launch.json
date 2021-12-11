@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ1865_웜홀",
+            "request": "launch",
+            "mainClass": "BJ1865_웜홀",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ1261_알고스팟",
             "request": "launch",
             "mainClass": "BJ1261_알고스팟",
