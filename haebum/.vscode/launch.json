@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ4485_녹색옷입은애가젤다지",
+            "request": "launch",
+            "mainClass": "BJ4485_녹색옷입은애가젤다지",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ1865_웜홀",
             "request": "launch",
             "mainClass": "BJ1865_웜홀",
