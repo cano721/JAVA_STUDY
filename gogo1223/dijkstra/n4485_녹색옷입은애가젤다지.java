@@ -7,6 +7,7 @@ import java.util.StringTokenizer;
 
 public class n4485_녹색옷입은애가젤다지 {
 	static int n, m;
+	static int[][] arr;
 	static Bus[] e;
 	static long[] dist;
 	
@@ -15,6 +16,8 @@ public class n4485_녹색옷입은애가젤다지 {
         StringTokenizer st = new StringTokenizer(br.readLine());
         
         n = Integer.parseInt(st.nextToken());
+        
+        arr = new int[n][n];
         m = Integer.parseInt(st.nextToken());
 
 	}
