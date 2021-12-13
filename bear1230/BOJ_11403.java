@@ -1,7 +1,6 @@
 import java.io.*;
 import java.util.*;
 
-
 public class Main {
 	static int n;
 	static int[][] map;
