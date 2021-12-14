@@ -6,153 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch BJ2660_회장뽑기",
-            "request": "launch",
-            "mainClass": "BJ2660_회장뽑기",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ4485_녹색옷입은애가젤다지",
-            "request": "launch",
-            "mainClass": "BJ4485_녹색옷입은애가젤다지",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ1865_웜홀",
-            "request": "launch",
-            "mainClass": "BJ1865_웜홀",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ1261_알고스팟",
-            "request": "launch",
-            "mainClass": "BJ1261_알고스팟",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ11657_타임머신",
-            "request": "launch",
-            "mainClass": "BJ11657_타임머신",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ1916_최소비용구하기",
-            "request": "launch",
-            "mainClass": "BJ1916_최소비용구하기",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ1753_최단경로",
-            "request": "launch",
-            "mainClass": "BJ1753_최단경로",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ2096_내려가기",
-            "request": "launch",
-            "mainClass": "BJ2096_내려가기",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ1495_기타리스트",
-            "request": "launch",
-            "mainClass": "BJ1495_기타리스트",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ11726_2xN타일링",
-            "request": "launch",
-            "mainClass": "BJ11726_2xN타일링",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ16926_배열돌리기1",
-            "request": "launch",
-            "mainClass": "BJ16926_배열돌리기1",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ14499_주사위굴리기",
-            "request": "launch",
-            "mainClass": "BJ14499_주사위굴리기",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ1309_동물원",
-            "request": "launch",
-            "mainClass": "BJ1309_동물원",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ9251_LCS",
-            "request": "launch",
-            "mainClass": "BJ9251_LCS",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ15990_1_2_3더하기_5",
-            "request": "launch",
-            "mainClass": "BJ15990_1_2_3더하기_5",
-            "projectName": "haebum_3f1ec9c7"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ1535_안녕",
-            "request": "launch",
-            "mainClass": "BJ1535_안녕",
-            "projectName": "haebum_3f1ec9c7"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ15988_1_2_3더하기_3",
-            "request": "launch",
-            "mainClass": "BJ15988_1_2_3더하기_3",
-            "projectName": "haebum_3f1ec9c7"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ2156_포도주시식",
-            "request": "launch",
-            "mainClass": "BJ2156_포도주시식",
-            "projectName": "haebum_3f1ec9c7"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ5557_1학년",
-            "request": "launch",
-            "mainClass": "BJ5557_1학년",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ2565_전깃줄",
-            "request": "launch",
-            "mainClass": "BJ2565_전깃줄",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
-            "name": "Launch BJ2011_암호코드",
-            "request": "launch",
-            "mainClass": "BJ2011_암호코드",
-            "projectName": "haebum_31e4f82f"
-        },
-        {
-            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -236,6 +89,27 @@
         },
         {
             "type": "java",
+            "name": "Launch BJ11403_경로찾기",
+            "request": "launch",
+            "mainClass": "BJ11403_경로찾기",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ11657_타임머신",
+            "request": "launch",
+            "mainClass": "BJ11657_타임머신",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ11726_2xN타일링",
+            "request": "launch",
+            "mainClass": "BJ11726_2xN타일링",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ11728_배열합치기",
             "request": "launch",
             "mainClass": "BJ11728_배열합치기",
@@ -264,6 +138,27 @@
         },
         {
             "type": "java",
+            "name": "Launch BJ1261_알고스팟",
+            "request": "launch",
+            "mainClass": "BJ1261_알고스팟",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ12865_평범한배낭",
+            "request": "launch",
+            "mainClass": "BJ12865_평범한배낭",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ1309_동물원",
+            "request": "launch",
+            "mainClass": "BJ1309_동물원",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ1316_그룹단어체커",
             "request": "launch",
             "mainClass": "BJ1316_그룹단어체커",
@@ -281,6 +176,13 @@
             "name": "Launch BJ1436_영화감독숌",
             "request": "launch",
             "mainClass": "BJ1436_영화감독숌",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ14499_주사위굴리기",
+            "request": "launch",
+            "mainClass": "BJ14499_주사위굴리기",
             "projectName": "haebum_31e4f82f"
         },
         {
@@ -327,6 +229,20 @@
         },
         {
             "type": "java",
+            "name": "Launch BJ1495_기타리스트",
+            "request": "launch",
+            "mainClass": "BJ1495_기타리스트",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ1535_안녕",
+            "request": "launch",
+            "mainClass": "BJ1535_안녕",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ15650_N과M_2",
             "request": "launch",
             "mainClass": "BJ15650_N과M_2",
@@ -348,6 +264,20 @@
         },
         {
             "type": "java",
+            "name": "Launch BJ15988_1_2_3더하기_3",
+            "request": "launch",
+            "mainClass": "BJ15988_1_2_3더하기_3",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ15990_1_2_3더하기_5",
+            "request": "launch",
+            "mainClass": "BJ15990_1_2_3더하기_5",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ16173_점프왕쩰리",
             "request": "launch",
             "mainClass": "BJ16173_점프왕쩰리",
@@ -362,9 +292,51 @@
         },
         {
             "type": "java",
+            "name": "Launch BJ16926_배열돌리기1",
+            "request": "launch",
+            "mainClass": "BJ16926_배열돌리기1",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ1753_최단경로",
+            "request": "launch",
+            "mainClass": "BJ1753_최단경로",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ1806_부분합",
             "request": "launch",
             "mainClass": "BJ1806_부분합",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ1865_웜홀",
+            "request": "launch",
+            "mainClass": "BJ1865_웜홀",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ1916_최소비용구하기",
+            "request": "launch",
+            "mainClass": "BJ1916_최소비용구하기",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ1922_네트워크연결_크루스칼",
+            "request": "launch",
+            "mainClass": "BJ1922_네트워크연결_크루스칼",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ1922_네트워크연결_프림",
+            "request": "launch",
+            "mainClass": "BJ1922_네트워크연결_프림",
             "projectName": "haebum_31e4f82f"
         },
         {
@@ -383,6 +355,13 @@
         },
         {
             "type": "java",
+            "name": "Launch BJ1976_여행가자",
+            "request": "launch",
+            "mainClass": "BJ1976_여행가자",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ2003_수들의합2",
             "request": "launch",
             "mainClass": "BJ2003_수들의합2",
@@ -390,9 +369,30 @@
         },
         {
             "type": "java",
+            "name": "Launch BJ2011_암호코드",
+            "request": "launch",
+            "mainClass": "BJ2011_암호코드",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ2075_N번째큰수",
             "request": "launch",
             "mainClass": "BJ2075_N번째큰수",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ2096_내려가기",
+            "request": "launch",
+            "mainClass": "BJ2096_내려가기",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ2156_포도주시식",
+            "request": "launch",
+            "mainClass": "BJ2156_포도주시식",
             "projectName": "haebum_31e4f82f"
         },
         {
@@ -439,6 +439,20 @@
         },
         {
             "type": "java",
+            "name": "Launch BJ2565_전깃줄",
+            "request": "launch",
+            "mainClass": "BJ2565_전깃줄",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ2579_계단오르기",
+            "request": "launch",
+            "mainClass": "BJ2579_계단오르기",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ2606_바이러스",
             "request": "launch",
             "mainClass": "BJ2606_바이러스",
@@ -463,6 +477,13 @@
             "name": "Launch BJ2644_촌수계산_2",
             "request": "launch",
             "mainClass": "BJ2644_촌수계산_2",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ2660_회장뽑기",
+            "request": "launch",
+            "mainClass": "BJ2660_회장뽑기",
             "projectName": "haebum_31e4f82f"
         },
         {
@@ -495,6 +516,20 @@
         },
         {
             "type": "java",
+            "name": "Launch BJ4485_녹색옷입은애가젤다지",
+            "request": "launch",
+            "mainClass": "BJ4485_녹색옷입은애가젤다지",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ5557_1학년",
+            "request": "launch",
+            "mainClass": "BJ5557_1학년",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ6603_로또",
             "request": "launch",
             "mainClass": "BJ6603_로또",
@@ -516,28 +551,17 @@
         },
         {
             "type": "java",
-            "name": "Launch test",
+            "name": "Launch BJ9251_LCS",
             "request": "launch",
-            "mainClass": "test",
+            "mainClass": "BJ9251_LCS",
             "projectName": "haebum_31e4f82f"
         },
         {
             "type": "java",
-            "name": "Launch Boj2178_미로탐색",
+            "name": "Launch test",
             "request": "launch",
-            "mainClass": "Boj2178_미로탐색"
-        },
-        {
-            "type": "java",
-            "name": "Launch D20211029_1_BJ_2309_일곱_난쟁이",
-            "request": "launch",
-            "mainClass": "D20211029_1_BJ_2309_일곱_난쟁이"
-        },
-        {
-            "type": "java",
-            "name": "Launch Main",
-            "request": "launch",
-            "mainClass": "cindya.bj14602_소금과후추_Small.Main"
+            "mainClass": "test",
+            "projectName": "haebum_31e4f82f"
         }
     ]
 }
