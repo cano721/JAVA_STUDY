@@ -82,6 +82,7 @@ public class Main {
 			return level[a];
 		}else if(a == b){
 			return level[a];
+			
 		}else {
 			set[a] = b;
 			level[b] += level[a];
