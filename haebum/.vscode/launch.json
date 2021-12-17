@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ6497_전력난_프림",
+            "request": "launch",
+            "mainClass": "BJ6497_전력난_프림",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ6497_전력난_크루스칼",
+            "request": "launch",
+            "mainClass": "BJ6497_전력난_크루스칼",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ4195_친구네트워크",
             "request": "launch",
             "mainClass": "BJ4195_친구네트워크",
