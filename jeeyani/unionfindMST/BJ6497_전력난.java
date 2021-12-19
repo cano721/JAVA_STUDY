@@ -8,28 +8,30 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
+import jeeyani.unionfindMST.BJ1647_도시분할계획.CityNode;
+
 /*
- * 
+ * MST알고리즘 문제
  *
- * 
+ * 모든집이 최소미터로 연결되어 있어야함
+ * 프림알고리즘
  * 
  @author Jeeyani
  */
 
 class meterNode implements Comparable<meterNode> {
-    int y;
-    int x;
+    int idx;
     int z;
 
-    public meterNode(int x, int y,int z) {
-        this.y = y;
-        this.x = x;
+    public meterNode(int idx, int z) {
+        this.idx = idx;
         this.z = z;
     }
 
-    @Override
+	@Override
     public int compareTo(meterNode o) {
         return z - o.z;
     }
@@ -37,53 +39,49 @@ class meterNode implements Comparable<meterNode> {
 
 public class BJ6497_전력난 {
 	
-	static int n,m;
-	static List<meterNode> list;
-	static int[] parent;
+	static int n,m,sum,minCost;
+	static List<ArrayList<meterNode>> list;
+	static boolean[] visited;
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringTokenizer st;
-
-		st = new StringTokenizer(br.readLine());
-		m = Integer.parseInt(st.nextToken());
-		n = Integer.parseInt(st.nextToken());
-		
-		parent = new int[m];
-		
-		//자기 자신의 노드번호로 초기화
-		for (int i = 0; i <m; i++) {
-			parent[i] = i;
-		}
-		
-		list = new ArrayList<meterNode>();
-		
-		for (int i = 0; i < n; i++) {
-			st = new StringTokenizer(br.readLine());
-			int x = Integer.parseInt(st.nextToken());
-			int y = Integer.parseInt(st.nextToken());
-			int z = Integer.parseInt(st.nextToken());
-			
-			if(x ==0 && y ==0) break;
-			
-			list.add(new meterNode(x, y, z));
-		}
-		
-		Collections.sort(list);
-		
-		int sum = 0;
-		for (int i = 0; i < list.size(); i++) {
-			meterNode node = list.get(i);
-			
-			if(!isCheck(node.x, node.y)) {
-				sum += node.z;
-				union(node.x, node.y);
-			}
-		}
-		
 		StringBuilder sb = new StringBuilder();
-		sb.append(sum);
+		
+		while(true) {
+			st = new StringTokenizer(br.readLine());
+			m = Integer.parseInt(st.nextToken());
+			n = Integer.parseInt(st.nextToken());
+			
+			if(n==0 && m==0) break;
+			
+			list = new ArrayList<>();
+			visited = new boolean[m];
+			
+			for (int i = 0; i <m; i++) {
+				list.add(new ArrayList<>());
+			}
+			
+			sum = 0;
+			
+			for (int i = 0; i < n; i++) {
+				st = new StringTokenizer(br.readLine());
+				int x = Integer.parseInt(st.nextToken());
+				int y = Integer.parseInt(st.nextToken());
+				int z = Integer.parseInt(st.nextToken());
+				
+				list.get(x).add(new meterNode(y, z));
+				list.get(y).add(new meterNode(x, z));
+				
+				sum +=z;
+			}
+
+			
+			getMaxCost();
+			sb.append(sum-minCost+"\n");
+			
+		}
 		
 		bw.write(sb.toString());
 		bw.flush();
@@ -92,33 +90,29 @@ public class BJ6497_전력난 {
 		
 	}
 
-	//선택한 간선의 두 정점이 연결되어 있지 않으면 두 정점을 연결시켜준다.
-	private static boolean isCheck(int x, int y) {
-		x = find(x);
-		y= find(y);
+	private static void getMaxCost() {
+		PriorityQueue<meterNode> pq = new PriorityQueue<>();
 		
-		if( x == y) return true;
-		else return false;
-	}
+		for(meterNode node : list.get(0)) pq.add(node);
 
-	private static int find(int x) {
-		if(x == parent[x]) return x;
+		visited[0] = true;
 		
-		return parent[x] = find(parent[x]);
-	}
-
-	//정점 연결
-	private static void union(int x, int y) {
-		x = find(x);
-		y= find(y);
-		
-		//같은 부모가 아닌 경우
-		if( x != y) {
-			if(x > y) parent[x] = y;
+		minCost = 0;
+		while (!pq.isEmpty()) {
+			meterNode node = pq.poll();
 			
-			else parent[y] = x;
+			//이미 방문 했으면 넘어가기
+			if(visited[node.idx]) continue;
+			
+			visited[node.idx] = true; //방문처리
+			minCost += node.z;
+
+			for (meterNode v : list.get(node.idx)) {
+				pq.add(v);
+			}
 		}
 		
 	}
+
 
 }
