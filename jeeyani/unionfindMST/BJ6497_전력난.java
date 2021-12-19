@@ -15,7 +15,7 @@ import java.util.StringTokenizer;
  *
  * 모든집이 최소미터로 연결되어 있어야함
  * 프림알고리즘
- * 
+ *  
  */
 
 class meterNode implements Comparable<meterNode> {
