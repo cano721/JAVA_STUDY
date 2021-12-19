@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ1620_나는야포켓몬마스터이다솜",
+            "request": "launch",
+            "mainClass": "BJ1620_나는야포켓몬마스터이다솜",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ1647_도시분할계획_프림",
+            "request": "launch",
+            "mainClass": "BJ1647_도시분할계획_프림",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ1647_도시분할계획_크루스칼",
+            "request": "launch",
+            "mainClass": "BJ1647_도시분할계획_크루스칼",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ6497_전력난_프림",
+            "request": "launch",
+            "mainClass": "BJ6497_전력난_프림",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ6497_전력난_크루스칼",
+            "request": "launch",
+            "mainClass": "BJ6497_전력난_크루스칼",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ4195_친구네트워크",
+            "request": "launch",
+            "mainClass": "BJ4195_친구네트워크",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
