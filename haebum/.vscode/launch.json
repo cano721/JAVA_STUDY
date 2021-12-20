@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ4386_별자리만들기",
+            "request": "launch",
+            "mainClass": "BJ4386_별자리만들기",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ1620_나는야포켓몬마스터이다솜",
             "request": "launch",
             "mainClass": "BJ1620_나는야포켓몬마스터이다솜",
