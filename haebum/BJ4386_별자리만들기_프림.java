@@ -3,10 +3,11 @@ import java.util.*;
 
 /**
  * 각 좌표별 별들을 저장해두고
- * 별들끼리 비교하여 간선 생성
+ * 별들끼리 비교하여 간선 생성(cost는 두 좌표 사이의 거리)
  * 간선을 만든 후부터는 mst 실행
+ * 프림방식
  */
-public class BJ4386_별자리만들기 {
+public class BJ4386_별자리만들기_프림 {
 
     //간선(현재좌표,다음좌표,비용)
     static class Edge{
