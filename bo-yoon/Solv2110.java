@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+
 public class Solv2110 {
     static int N, M;
     static int[] houses;
