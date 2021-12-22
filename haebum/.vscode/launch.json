@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ3584_가장가까운공통조상",
+            "request": "launch",
+            "mainClass": "BJ3584_가장가까운공통조상",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ1939_중량제한",
+            "request": "launch",
+            "mainClass": "BJ1939_중량제한",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ2110_공유기설치",
+            "request": "launch",
+            "mainClass": "BJ2110_공유기설치",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ4386_별자리만들기",
             "request": "launch",
             "mainClass": "BJ4386_별자리만들기",
