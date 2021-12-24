@@ -27,7 +27,7 @@ public class Main {
         System.out.println(answer);
     }
 
-    public static void getDiffSum(int k, int min){
+    private static void getDiffSum(int k, int min){
         int diffSum = 0, sum = 0, cnt = 0;
         for(int gift : gifts){
             // sum이 최솟값보다 크면
