@@ -71,7 +71,7 @@
 
 **[12월 패스권 사용]**
 
-1. 1223gogo, egg528, paul, bo-yoon, yht0827
+1. 1223gogo, egg528, paul, bo-yoon, yht0827, bear1230, jeeyani, cano721 
 2. egg528, 1223gogo, paul
 
 ### 참가자
