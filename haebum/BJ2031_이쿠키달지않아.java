@@ -14,5 +14,5 @@ public class BJ2031_이쿠키달지않아 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-    }
+    }  
 }
