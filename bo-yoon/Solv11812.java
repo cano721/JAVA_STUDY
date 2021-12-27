@@ -1,6 +1,8 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
+
+
 public class Solv11812 {
 
     static long N;
