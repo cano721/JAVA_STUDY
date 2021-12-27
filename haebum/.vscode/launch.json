@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ11812_K진트리",
+            "request": "launch",
+            "mainClass": "BJ11812_K진트리",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ3584_가장가까운공통조상",
             "request": "launch",
             "mainClass": "BJ3584_가장가까운공통조상",
