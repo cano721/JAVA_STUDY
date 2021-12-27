@@ -15,7 +15,7 @@ import java.util.*;
  * 
  * 따라서 부모노드를 찾으면서, 두 노드의 부모노드가 같아질 때까지 반복
  * 
- * 
+ * 참조: https://sysgongbu.tistory.com/146
  @author Jeeyani
  */
 
@@ -31,14 +31,14 @@ public class BJ11812_k진트리 {
 		StringBuilder sb = new StringBuilder();
 
 		st = new StringTokenizer(br.readLine());
-		n = Integer.parseInt(st.nextToken());
+		n = Long.parseLong(st.nextToken());
 		k = Integer.parseInt(st.nextToken());
 		q = Integer.parseInt(st.nextToken());
 
 		for (int i = 0; i < q; i++) {
 			st = new StringTokenizer(br.readLine());
-			long x = Integer.parseInt(st.nextToken());
-			long y = Integer.parseInt(st.nextToken());
+			long x = Long.parseLong(st.nextToken());
+			long y = Long.parseLong(st.nextToken());
 
 			if (k == 1) {
 				sb.append(Math.abs(x-y)+"\n");
