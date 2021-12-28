@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ2623_음악프로그램",
+            "request": "launch",
+            "mainClass": "BJ2623_음악프로그램",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ2252_줄세우기",
+            "request": "launch",
+            "mainClass": "BJ2252_줄세우기",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ11812_K진트리",
             "request": "launch",
             "mainClass": "BJ11812_K진트리",
