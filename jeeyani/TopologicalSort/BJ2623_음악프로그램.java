@@ -1,4 +1,4 @@
-package LCA;
+package TopologicalSort;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -7,19 +7,10 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.*;
 
-/*
- * 위상정렬알고리즘 
- * 1. 후행 정점을 기준으로 연결되어 있는 간선의 수를 저장
- * 2. 선행 간선이 없는 정점을 큐에 집어 넣기
- * 3. 큐에서 하나씩 값을 빼면서 그 다음 값을 큐에 다시 넣는다.
- * 
- * 
- @author Jeeyani
- */
 
-public class BJ2252_줄세우기 {
+public class BJ2623_음악프로그램 {
 
-	static int n,m;
+	static int n,m,cnt=0;
 	static List<ArrayList<Integer>> list;
 	static int[] nodeLinelist;
 	static StringBuilder sb = new StringBuilder();
@@ -41,20 +32,32 @@ public class BJ2252_줄세우기 {
 			list.add(new ArrayList<Integer>());
 		}
 		
+		
 		for (int i = 0; i < m; i++) {
 			st = new StringTokenizer(br.readLine());
-			int a = Integer.parseInt(st.nextToken());
-			int b = Integer.parseInt(st.nextToken());
+			int num = Integer.parseInt(st.nextToken());
 			
-			list.get(a).add(b);
-			nodeLinelist[b]++; //후행 정점에 대한 간선 수 증가
+			int[] tempList = new int[num];
+			tempList[0] = Integer.parseInt(st.nextToken());
 			
+			for (int j = 1; j < num; j++) {
+				tempList[j] = Integer.parseInt(st.nextToken());
+				list.get(tempList[j-1]).add(tempList[j]);
+				nodeLinelist[tempList[j]]++;
+			}	
 		}
 		
 		getOrder();
 		
-		bw.write(sb.toString());
-		bw.flush();
+		if(cnt >= n) {
+			bw.write(sb.toString());
+			bw.flush();
+		}
+		else { //순서 정하는 것이 불가능 할 경우!
+			bw.write("0");
+			bw.flush();
+		}
+		
 		bw.close();
 		br.close();
 
@@ -63,23 +66,21 @@ public class BJ2252_줄세우기 {
 	private static void getOrder() {
 		Queue<Integer> q = new LinkedList<Integer>();
 		
-		//1. 선행 정점을 가지고 있지 않는 정점을 큐에 삽입
 		for (int i = 1; i <=n; i++) {
 			if(nodeLinelist[i] == 0) {
 				q.add(i);
 			}
 		}
 		
-		//2. 정점을 하나씩 제거하면서 간선의 수도 함께 삭제해준다.
 		while(!q.isEmpty()) {
+			cnt++;
 			int v = q.remove();
-			sb.append(v+" ");
+			sb.append(v+"\n");
 			
 			for(int j = 0; j < list.get(v).size(); j++) {
 				int next = list.get(v).get(j);
 				nodeLinelist[next]--;
 				
-				//간석 중에 선행 정점을 가지고 있는 않는 경우 다시 큐에 삽입
 				if(nodeLinelist[next] == 0) {
 					q.add(next);
 				}
