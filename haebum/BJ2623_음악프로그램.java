@@ -66,7 +66,7 @@ public class BJ2623_음악프로그램 {
             for(int i = 0; i < graph[cur].size(); i++){
                 int next = graph[cur].get(i);
                 degree[next]--;
-                if(degree[next] == 0){
+                if(degree[next] == 0){ 
                     q.offer(next);
                 }
             }

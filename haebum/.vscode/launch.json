@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ2056_작업",
+            "request": "launch",
+            "mainClass": "BJ2056_작업",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ14676_영우는사기꾼",
+            "request": "launch",
+            "mainClass": "BJ14676_영우는사기꾼",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ2623_음악프로그램",
             "request": "launch",
             "mainClass": "BJ2623_음악프로그램",
