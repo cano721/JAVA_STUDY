@@ -1,6 +1,5 @@
 import java.io.*;
 import java.util.*;
-import java.util.function.DoubleBinaryOperator;
 
 
 public class Main {
@@ -38,7 +37,7 @@ public class Main {
         king.blood =1;
         set.add(king.name);
         hash.put(king.name, king);
-        map.put(index++, king.name);
+        map.put(index++, king.name); 
 
         for (int i = 0; i < n; i++) {
             String[] s = br.readLine().split(" ");
@@ -52,10 +51,9 @@ public class Main {
             // 부모 부모 -> 자식 만들기
             int child = hash.get(s[0]).idx;
             list[hash.get(s[1]).idx].add(child);
-            int k = hash.get(s[2]).idx;
-            list[k].add(child);
+            list[hash.get(s[2]).idx].add(child);
 
-            indegree[child]++;
+            indegree[child]+=2;
         }
 
         Queue<Integer> q = new LinkedList<>();
@@ -63,7 +61,7 @@ public class Main {
             if (indegree[i] == 0) q.add(i);
         }
 
-        for (int i = 0; i < index; i++) {
+        while(!q.isEmpty()) {
             int now = q.poll();
             Person parent = hash.get(map.get(now));
 
