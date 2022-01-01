@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ5021_왕위계승",
+            "request": "launch",
+            "mainClass": "BJ5021_왕위계승",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ2056_작업",
             "request": "launch",
             "mainClass": "BJ2056_작업",
