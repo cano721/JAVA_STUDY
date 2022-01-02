@@ -49,6 +49,7 @@
   - 백준 기준 실버X~골드X
   - 브루트포스,재귀(백트래킹), DFS & BFS, 우선순위큐, 투포인터&슬라이딩 윈도우, DP
   - 다익스트라&벨만포드&플로이드워셜, 유니온파인드, MST(크루스칼,프림)
+  - 이분탐색, LCA, 위상정렬, 누적합
 - 토의시간(참여 가능한 사람만)
   - 매주 일요일 20시
   - Discord 통해서 진행
@@ -71,8 +72,8 @@
 
 **[1월 패스권 사용]**
 
-1. bo-yoon, yht0827
-2. bo-yoon
+1. yht0827
+2. 
 
 ### 참가자
 
@@ -118,7 +119,7 @@
   - 사용가능 언어: 중 - Java, C++
   - Contact: pdh5056@gmail.com
 
-- (bo-yoon) - <img src="./md-images/bo-yoon.png" height = "30" width="30">
+- () - 
   - 사용가능 언어:
   - Contact: 
 - (rave189) - <img src="./md-images/rave189.png" height = "30" width="30">
