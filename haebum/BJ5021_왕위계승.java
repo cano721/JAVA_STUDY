@@ -90,7 +90,7 @@ public class BJ5021_왕위계승 {
             blood.put(c,p1/2);
         // 둘다 혈통이면 더하기
         }else{
-            blood.put(c,p1 + p2);
+            blood.put(c,(p1 + p2)/2);
         }
     }
 }
