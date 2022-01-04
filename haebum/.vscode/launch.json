@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ3020_개똥벌레",
+            "request": "launch",
+            "mainClass": "BJ3020_개똥벌레",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ10211_Maximum_Subarray",
+            "request": "launch",
+            "mainClass": "BJ10211_Maximum_Subarray",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ2559_수열",
+            "request": "launch",
+            "mainClass": "BJ2559_수열",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ2031_이쿠키달지않아",
             "request": "launch",
             "mainClass": "BJ2031_이쿠키달지않아",
