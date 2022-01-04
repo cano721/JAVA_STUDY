@@ -7,11 +7,19 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
+/*
+ * arr[i]~arr[j]까지의 합 => pSum[j] - pSum[i-1]
+ * 
+ * pSum[n] = pSum[n-1] + arr[n]
+ * 
+ * 
+ @author Jeeyani
+ */
+
 public class BJ2559_수열 {
 
 	static int n, k;
 	static int[] arr;
-	static int[] sum;
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -29,31 +37,24 @@ public class BJ2559_수열 {
 		for (int i = 0; i < n; i++) {
 			arr[i] = Integer.parseInt(st.nextToken());
 		}
-
-		int start = 0;
-		int end = 0;
-		int sum = 0;
-		int lenCnt = 0;
 		
-		int maxResult = 0;
-		for (int i = start; i < n; i++) {
+		//첫 k구간 까지의 누적 합 구하기
+		int sum = 0;
+		for (int i = 0; i < k; i++) {
+			sum += arr[i];
+		}
 
-			while (lenCnt < k && end < n) {
-				sum += arr[end];
-				end++;
-				lenCnt++;
-			}
-
-			maxResult = Math.max(maxResult, sum);
-
-			sum -= arr[start];
-			start++;
-			lenCnt--;
-
+		int max = sum;
+		
+		//n개의 누적합을 계속해서 갱신
+		for (int i = k; i < n; i++) {
+			sum = sum - arr[i-k] + arr[i];
+			
+			max = Math.max(max, sum);
 		}
 		
 		StringBuffer sb = new StringBuffer();
-		sb.append(maxResult);
+		sb.append(max);
 		bw.write(sb.toString());
 		bw.flush();
 		bw.close();

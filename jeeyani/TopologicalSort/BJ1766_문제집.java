@@ -9,9 +9,7 @@ import java.util.*;
 
 /*
  * 
- * dp[i] = Math.max(dp[i], dp[j]+1)
- * 
- * i = 선수과목 이후 듣는 과목 , j = 선수과목
+ * 문제번호가 앞자리 부터 난이도가 쉬움 -> 우선순위 큐로 작은 수 부터 담기
  * 
  @author Jeeyani
  */
