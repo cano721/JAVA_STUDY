@@ -9,20 +9,16 @@ import java.util.*;
 
 /*
  * 
- * dp[i] = Math.max(dp[i], dp[j]+1)
- * 
- * i = 선수과목 이후 듣는 과목 , j = 선수과목
+ * 문제번호가 앞자리 부터 난이도가 쉬움 -> 우선순위 큐로 작은 수 부터 담기
  * 
  @author Jeeyani
  */
 
-public class BJ14567_선수과목 {
+public class BJ1766_문제집 {
 
 	static int n, m;
 	static List<Integer>[] list; //선행관계 
-	static int[] ClassList;
-	static int[] dp;
-
+	static int[] problemList;
 	static StringBuilder sb = new StringBuilder();
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
@@ -35,12 +31,10 @@ public class BJ14567_선수과목 {
 		m = Integer.parseInt(st.nextToken());
 
 		list = new ArrayList[n + 1];
-		ClassList = new int[n + 1];
-		dp = new int[n + 1];
+		problemList = new int[n + 1];
 
 		for (int i = 1; i <= n; i++) {
 			list[i] = new ArrayList<Integer>();
-			dp[i] = 1;
 		}
 
 		for (int i = 1; i <= m; i++) {
@@ -50,17 +44,12 @@ public class BJ14567_선수과목 {
 			int b = Integer.parseInt(st.nextToken());
 
 			list[a].add(b);
-			ClassList[b]++;
+			problemList[b]++;
 
 		}
 
 		getTerm();
-
-		StringBuffer sb = new StringBuffer();
-		for (int i = 1; i <= n; i++) {
-			sb.append(dp[i] + " ");
-		}
-
+		
 		bw.write(sb.toString());
 		bw.flush();
 		bw.close();
@@ -68,25 +57,23 @@ public class BJ14567_선수과목 {
 	}
 
 	private static void getTerm() {
-		Queue<Integer> q = new LinkedList<Integer>();
+		PriorityQueue<Integer> q = new PriorityQueue<Integer>();
 
 		for (int i = 1; i <= n; i++) {
-			if (ClassList[i] == 0) {
+			if (problemList[i] == 0) {
 				q.add(i);
 			}
 		}
 		
 		while (!q.isEmpty()) {
 			int v = q.remove();
+			sb.append(v+" ");
 			
 			for (int j = 0; j < list[v].size(); j++) {
 				int next = list[v].get(j);
-				//단순 값을 증가시키는 것이 아닌 최대값을 찾아야함
-				//dp[next]++;
-				dp[next] = Math.max(dp[next], dp[v]+1);
-				ClassList[next]--;
+				problemList[next]--;
 				
-				if (ClassList[next] == 0) {
+				if (problemList[next] == 0) {
 					q.add(next);
 				}
 			}
