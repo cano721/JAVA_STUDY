@@ -50,8 +50,10 @@ public class Main {
                     // cnt가 0이라면 건물 수 증가
                     numberOfBuilding[b]++;
                     //다음 건물 cnt 감소
+                    if(numberOfBuilding[b] > 1) continue;
                     for(int nxt : buildings[b].next)
-                        buildings[nxt].cnt--;
+                        if(buildings[nxt].cnt > 0)
+                            buildings[nxt].cnt--;
                     break;
                 case 2 : // 파괴할 때
                     // 건물이 없으면 사기꾼
