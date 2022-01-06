@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ2015_수들의합4",
+            "request": "launch",
+            "mainClass": "BJ2015_수들의합4",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ3020_개똥벌레",
             "request": "launch",
             "mainClass": "BJ3020_개똥벌레",
