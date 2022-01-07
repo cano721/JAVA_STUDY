@@ -15,9 +15,11 @@ import java.util.StringTokenizer;
 
 public class BJ3020_개똥벌레 {
 
-	static int n, h, min=Integer.MAX_VALUE;
-	static int[] cave;
-	static int[] rangeSum;
+	static int n, h, min,cnt;
+	//static int[] cave;
+	//static int[] rangeSum;
+	static int[] rangeDown;
+	static int[] rangeTop;
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -28,23 +30,29 @@ public class BJ3020_개똥벌레 {
 
 		n = Integer.parseInt(st.nextToken());
 		h = Integer.parseInt(st.nextToken());
+		min = n;
 
-		cave = new int[n+1];
-		rangeSum = new int[h+1];
+		//cave = new int[n+1];
+		//rangeSum = new int[h+1];
+
+		rangeDown = new int[h+1]; //종유석
+		rangeTop = new int[h+1]; //석순
 
 		for (int i = 1; i < n+1; i++) {
-			cave[i] = Integer.parseInt(br.readLine());
+			//cave[i] = Integer.parseInt(br.readLine());
+			int height = Integer.parseInt(br.readLine());
+			
+			if(i%2==0) {
+				rangeDown[height]++;
+			}
+			else {
+				rangeTop[height]++;
+			}
 		}
 		
 		
 		getRangeMin();
 		
-		int cnt=0;
-		for (int i = 1; i <= h; i++) {
-			if(min == rangeSum[i]) {
-				cnt++;
-			}
-		}
 		
 		StringBuffer sb = new StringBuffer();
 		
@@ -58,19 +66,30 @@ public class BJ3020_개똥벌레 {
 
 	private static void getRangeMin() {
 		
-		for (int i = 1; i <= h; i++) {
-			int wallCnt=0;
-			for (int j = 1; j <=n; j++) {
-				
-				if(j%2 == 0) {
-					if(Math.abs(cave[j]-h) < i) wallCnt++;
-					
-				}else {
-					if(cave[j] >= i) wallCnt++;
-				}
+		int[] downSum = new int[h+1];
+		int[] topSum = new int[h+1];
+		
+		//누적합 계산하기
+		for (int i = 1; i <=h; i++) {
+			
+			downSum[i] = downSum[i-1]+rangeDown[i];
+			topSum[i] = topSum[i-1]+rangeTop[i];
+			
+		}
+		
+		for (int i = 1; i <=h; i++) {
+			//부수고 가는 벽의 수
+			int wallCnt = 0;
+			
+			// pSum[n] = pSum[n-1] + arr[n] 공식 이용
+			wallCnt +=downSum[h]-downSum[i-1];
+			wallCnt +=topSum[h]-topSum[i-1];
+			
+			if(min>wallCnt) {
+				min = Math.min(wallCnt, min);
+				cnt = 1;
 			}
-			rangeSum[i] = wallCnt;
-			min = Math.min(min, rangeSum[i]);
+			else if(min == wallCnt) cnt++;
 		}
 		
 	}
