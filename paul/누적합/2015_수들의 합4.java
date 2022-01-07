@@ -4,7 +4,7 @@ import java.util.*;
  *  모든 위치에서 누적합을 구한다.
  *  sum[i] - sum[j] = k 임을 만족해야함.
  *  sum[i] -k = sum[j] 를 찾으면 된다. 
- *  map을 이용해서 sum[i]-k 가 존재하는지 확인...
+ *  map을 이용해서 sum[i]-k 가 존재하는지 확인
  */
 public class Main{
     static int n, k;
