@@ -19,9 +19,14 @@ import java.util.StringTokenizer;
  * pSum[j]%m - pSum[i-1]%m = 0   임으로
  * 
  * 따라서 
- * pSum[j] = pSum[i-1] 인 경우의 수 찾기
+ * pSum[j] = pSum[i-1] 인 경우의 수 를 저장한다. (count배열에)
  * 
  * 
+ * 즉
+ * count[i] = k라 할때,
+ * k가 2 이상이라면 2개를 뽑아 한쌍을 만들수 있음으로 조합공식을 이용해 총 개수를 구해준다.
+ * 
+ * 참고)https://barbera.tistory.com/29
  @author Jeeyani
  */
 
@@ -51,7 +56,7 @@ public class BJ10986_나머지합 {
 		}
 
 		/*
-		 * 각 나머지 수에서 2개를 뽀는 경우의 수를 모두 더하기
+		 * 각 나머지 수에서 2개를 뽑는 경우의 수를 모두 더하기
 		 * 
 		 * ** 조합식 사용하기
 		 *  nCr = nPr/r! = n!/(r!(n-r)!)
