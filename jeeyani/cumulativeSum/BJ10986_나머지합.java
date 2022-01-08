@@ -28,7 +28,6 @@ import java.util.StringTokenizer;
 public class BJ10986_나머지합 {
 
 	static int n, m;
-	static int[] arr;
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -41,14 +40,14 @@ public class BJ10986_나머지합 {
 		m = Integer.parseInt(st.nextToken());
 
 		st = new StringTokenizer(br.readLine());
-		arr = new int[n + 1];
-
+		
+		int sum = 0;
 		int[] count = new int[m];
 
 		for (int i = 1; i <= n; i++) {
-			arr[i] += Integer.parseInt(st.nextToken()) % m;
+			sum += Integer.parseInt(st.nextToken()) % m;
 			
-			count[arr[i]%m]++;
+			count[sum%m]++;
 		}
 
 		/*
