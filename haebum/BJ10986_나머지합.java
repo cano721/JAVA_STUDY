@@ -22,7 +22,7 @@ import java.io.*;
 
 public class BJ10986_나머지합 {
 
-    public static int[] sumArr;
+    public static long[] sumArr;
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
@@ -33,7 +33,7 @@ public class BJ10986_나머지합 {
         int m = Integer.parseInt(st.nextToken());
 
         st = new StringTokenizer(br.readLine());
-        sumArr = new int[n+1];
+        sumArr = new long[n+1];
         
         for(int i = 1; i <= n; i++){
             int num = Integer.parseInt(st.nextToken()); 
@@ -41,10 +41,10 @@ public class BJ10986_나머지합 {
         }
 
         // 누적합의 개수를 저장한 맵
-        Map<Integer,Integer> map = new HashMap<>();
-        map.put(0,1);
+        Map<Long,Integer> map = new HashMap<>();
+        map.put(0l,1);
         long cnt = 0;
-        // 처음부터 끝까지 돌면서 k를 뺐을때의 누적합이 있는지 확인
+        
         for(int i = 1; i <= n; i++){
             // 현재 누적합%m 과 같은 값이 있다면 개수만큼 더하기 아니면 0
             cnt += map.getOrDefault(sumArr[i]%m,0);
