@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ2143_두배열의합",
+            "request": "launch",
+            "mainClass": "BJ2143_두배열의합",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ2616_소형기관차",
             "request": "launch",
             "mainClass": "BJ2616_소형기관차",
