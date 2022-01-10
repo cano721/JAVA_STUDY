@@ -44,9 +44,10 @@ public class n2143_두배열의합 {
         Collections.sort(sumA);
         Collections.sort(sumB);
         
-        int answer = 0;
+        long answer = 0;
         int pa = 0; 
         int pb = sumB.size()-1;
+        
         while(pa < sumA.size() && pb >= 0) {
         	long sum = sumA.get(pa) + sumB.get(pb);
         	if(sum == T) {
@@ -58,9 +59,9 @@ public class n2143_두배열의합 {
         			aCnt++;
         			pa++;
         		}
-        		while(pb < sumB.size() && sumB.get(pb) == bSum) {
+        		while(pb >= 0 && sumB.get(pb) == bSum) {
         			bCnt++;
-        			pb++;
+        			pb--;
         		}
         		answer += aCnt * bCnt;
         	}
