@@ -59,6 +59,7 @@ public class BOJ_2143 {
         }
     }
 
+    //찾으려는 값 이상의 수가 처음 나오는 위치
     private static int lower_bound(List<Integer> list, int val) {
         int start = 0;
         int end = list.size();
@@ -73,7 +74,7 @@ public class BOJ_2143 {
         }
         return start;
     }
-
+    //찾으려는 값 초과하는 수가 처음 나오는 위치
     private static int upper_bound(List<Integer> list, int val) {
         int start = 0;
         int end = list.size();
