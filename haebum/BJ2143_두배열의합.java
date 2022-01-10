@@ -41,7 +41,7 @@ public class BJ2143_두배열의합 {
             // b의 부분합이 있을때
             if(mapB.containsKey(cur)){
                 // 개수의 곱 더하기
-                answer += mapA.get(Akey)*mapB.get(cur);
+                answer += (long)mapA.get(Akey)*(long)mapB.get(cur);
             }
         }
 
