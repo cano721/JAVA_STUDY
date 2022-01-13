@@ -15,7 +15,7 @@ public class test {
         // System.out.println(Integer.toBinaryString(full));
         // System.out.println(Integer.toBinaryString(~(1<<3)));
         // full |= 31;
-        full |= (1<<31);
+        full = (1<<5)-1;
         System.out.println(Integer.toBinaryString(full));
         // System.out.println(b);
         // for(int i = 0; i < arr.length; i++){

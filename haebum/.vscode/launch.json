@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ2064_IP주소",
+            "request": "launch",
+            "mainClass": "BJ2064_IP주소",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ1094_막대기",
+            "request": "launch",
+            "mainClass": "BJ1094_막대기",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ16916_부분문자열",
             "request": "launch",
             "mainClass": "BJ16916_부분문자열",

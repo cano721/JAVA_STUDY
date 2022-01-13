@@ -13,7 +13,7 @@
  * 현재 데이터가 비트셋에 없었으면 비트셋 표기 및 출력
  * 있었으면 패스
  * 
- * 2. 배열 + 비트 마스킹
+ * 2. 배열 + 비트 마스크
  * 
  * 배열을 비트셋같이 쓸거임 arr
  * 
@@ -43,7 +43,7 @@ public class BJ13701_중복제거 {
         // st = new StringTokenizer(br.readLine());
         // while(st.hasMoreTokens()){
         //     int a = Integer.parseInt(st.nextToken());
-        //     if(!bitSet.get(a)){
+            // if(!bitSet.get(a)){
         //         bitSet.set(a);
         //         bw.write(a + " ");
         //     }

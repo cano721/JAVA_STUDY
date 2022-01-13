@@ -26,7 +26,7 @@ import java.util.StringTokenizer;
  * count[i] = k라 할때,
  * k가 2 이상이라면 2개를 뽑아 한쌍을 만들수 있음으로 조합공식을 이용해 총 개수를 구해준다.
  * 
- * 참고)https://barbera.tistory.com/29
+ * 참고)https://zoosso.tistory.com/550
  @author Jeeyani
  */
 
