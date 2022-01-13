@@ -9,46 +9,32 @@ import java.util.BitSet;
 import java.util.StringTokenizer;
 
 /*
- *
- * 자바의 Bitset 라이브러리를 사용하면 간단하게 해결
+ * 자를 수 있는 막대기의 길이는
  * 
- * 0: false
- * 1: true
+ * 64 32 16 8 4 2 1
  * 
- * bs.set(10);
- * bs.set(20);
+ * 즉, 2진수로 나타낼 수 있는 수이다.
  * 
- * 10번째, 20번째 인덱스 값의 bit를 true로 설정
+ * 따라서 X길이를 만들수 있는 막대기의 갯수는
+ * 결국에 X를 이진법으로 나타내어 만들어진 값의 1의 갯수이다.
  * 
- * get을 이용하여 값 가져오기
- * bs.get(10); //true
- * bs.get(20); //true
- * bs.get(5); //false
+ * 1의 갯수를 구하는 함수 Integer.bitCount를 이용한다.
  * 
  @author Jeeyani
  */
 
-public class BJ13701_중복제거 {
-
-	static int[] num;
+public class BJ1094_막대기 {
 	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		BitSet bs = new BitSet();
+		int n = Integer.parseInt(br.readLine());
+
 		
 		StringBuffer sb = new StringBuffer();
-		while(st.hasMoreTokens()){
-			int num = Integer.parseInt(st.nextToken());
-			
-			if(bs.get(num)) continue;
-			bs.set(num);
-			sb.append(num+" ");
-		
-		}
-		
+		int ans = Integer.bitCount(n);
+		sb.append(ans);
 		bw.write(sb.toString());
 		bw.flush();
 		bw.close();
