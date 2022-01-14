@@ -37,7 +37,7 @@ public class BOJ_2064 {
         print(ip[0] & subnet);
         print(subnet);
     }
-    
+
     static void print(int mask) {
         int shift = 24;
         for (int i = 0; i < 4; i++, shift -= 8) {
