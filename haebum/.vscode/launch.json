@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ1701_Cubeditor",
+            "request": "launch",
+            "mainClass": "BJ1701_Cubeditor",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ2064_IP주소",
             "request": "launch",
             "mainClass": "BJ2064_IP주소",
