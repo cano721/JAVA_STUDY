@@ -7,8 +7,11 @@
  * 1. 각 벽을 비트단위로 해당위치 저장
  * 
  * 2. bfs로 방 개수 파악 및 방 별 넓이 확인
+ *   1) visited에 현재 위치가 몇번방인지 저장
+ *   2) 해시맵에 방번호 : 방사이즈로 저장
  * 
- * 3. visited + 벽 부신 유무 확인
+ * 3. visited(현재위치 방번호)를 4방향 돌면서 다른 방 만났을때,
+ *    현재방 사이즈 + 다른방 사이즈가 최대값인지 비교
  * 
  * 
  */
@@ -19,7 +22,7 @@ public class BJ2234_성곽 {
     
     public static int n,m,brokenMax,maxRoom;
     public static int[][] arr,visited;
-    public static Map<Integer,Integer> map = new HashMap<>();
+    public static Map<Integer,Integer> map = new HashMap<>(); // 방번호 : 방사이즈
 
     public static int[] dirX = {0,-1,0,1};
     public static int[] dirY = {-1,0,1,0};
