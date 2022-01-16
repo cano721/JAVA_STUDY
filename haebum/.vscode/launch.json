@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ2234_성곽",
+            "request": "launch",
+            "mainClass": "BJ2234_성곽",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ2098_외판원순회",
             "request": "launch",
             "mainClass": "BJ2098_외판원순회",
