@@ -39,14 +39,14 @@ public class BJ2064_IP주소 {
 			}
 		}
 		
-		//
-		for (int i = 0; i < 4; i++) {
+		
+		f:for (int i = 0; i < 4; i++) {
 			int minIP = ipAddress[0][i];
 			int maxIP = ipAddress[0][i];
 			
 			for (int j = 0; j < n; j++) {
 				minIP = Math.min(minIP, ipAddress[j][i]);
-				maxIP = Math.max(minIP, ipAddress[j][i]);
+				maxIP = Math.max(maxIP, ipAddress[j][i]);
 			}
 			
 			//2. 네트워크 마스크 찾기
@@ -61,14 +61,17 @@ public class BJ2064_IP주소 {
 					
 					if(-(~maxIP^minIP) <= 1<<j) {
 						netMask[i] = 256 - (1<<j);
-						break;
+						break f;
 					}
 					
 				}
 				
 			}
-			netAddress[i] = ipAddress[0][i] & netMask[i];
 			
+		}
+		
+		for (int i = 0; i < 4; i++) {
+			netAddress[i] = ipAddress[0][i] & netMask[i];
 		}
 		
 		StringBuffer sb = new StringBuffer();
