@@ -73,7 +73,7 @@
 **[1월 패스권 사용]**
 
 1. yht0827, paul, 1223gogo, egg528, bear1230, HoYoon-Lee, jeeyani
-2. yht0827, paul
+2. yht0827, paul, egg528
 
 ### 참가자
 
