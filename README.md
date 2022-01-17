@@ -38,8 +38,8 @@
 
 - 문제출제순서(2일단위 카톡 알림)
 
-  - cano721 -> bear1230 -> jeeyani -> HoYoon-Lee -> YHT
-  - -> 1223gogo -> paul  -> rave189 -> egg528 -> iamsojung
+  - cano721 -> bear1230 -> jeeyani -> YHT -> 1223gogo
+  - ->  paul  -> rave189 -> egg528 -> iamsojung
 
 - 문제 출제 / 제출 기한
   - 20시 ~ 23시 사이에 출제
@@ -99,10 +99,10 @@
   - 사용가능 언어: 중 - Java, 하 - C++
   - Contact: jeeyeon27@naver.com
 
-- (HoYoon-Lee) - <img src="./md-images/HoYoon-Lee.png" height = "30" width="30">
+- () - 
 
-  - 사용가능 언어: 중 - Java, C, Python / 하 - Kotlin, C++, Javascript
-  - Contact: happylhy0630@naver.com
+  - 사용가능 언어: 
+  - Contact: 
 
 - (yht0827) - <img src="./md-images/YHT.png" height = "30" width="30">
 
