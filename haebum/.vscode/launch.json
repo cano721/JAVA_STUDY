@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ11505_구간곱구하기_세그먼트트리",
+            "request": "launch",
+            "mainClass": "BJ11505_구간곱구하기_세그먼트트리",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ2042_구간합구하기_펜윅트리",
+            "request": "launch",
+            "mainClass": "BJ2042_구간합구하기_펜윅트리",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ2042_구간합구하기_세그먼트트리",
+            "request": "launch",
+            "mainClass": "BJ2042_구간합구하기_세그먼트트리",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ16172_나는친구가적다_Large",
             "request": "launch",
             "mainClass": "BJ16172_나는친구가적다_Large",
