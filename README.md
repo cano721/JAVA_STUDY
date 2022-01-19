@@ -39,7 +39,7 @@
 - 문제출제순서(2일단위 카톡 알림)
 
   - cano721 -> bear1230 -> jeeyani -> YHT -> 1223gogo
-  - ->  paul  -> rave189 -> egg528 -> iamsojung
+  - ->  paul  -> rave189 -> egg528 -> iamsojung -> woneee99
 
 - 문제 출제 / 제출 기한
   - 20시 ~ 23시 사이에 출제
