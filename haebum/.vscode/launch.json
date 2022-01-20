@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BJ2357_최솟값과최댓값_펜윅",
+            "request": "launch",
+            "mainClass": "BJ2357_최솟값과최댓값_펜윅",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BJ2357_최솟값과최댓값",
+            "request": "launch",
+            "mainClass": "BJ2357_최솟값과최댓값",
+            "projectName": "haebum_31e4f82f"
+        },
+        {
+            "type": "java",
             "name": "Launch BJ11505_구간곱구하기_세그먼트트리",
             "request": "launch",
             "mainClass": "BJ11505_구간곱구하기_세그먼트트리",
