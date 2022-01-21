@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 public class Main {
-    static int n,m,k;
+    static int n,m;
     static int[] arr, minTree, maxTree;
 
     public static void main(String[] args) throws IOException{
@@ -19,7 +19,8 @@ public class Main {
             arr[i] = Integer.parseInt(br.readLine());
         }
 
-        
+        minTree = new int[n*4];
+        maxTree = new int[n*4];
 
         for(int i = 0; i < m; i++){
             st = new StringTokenizer(br.readLine());
