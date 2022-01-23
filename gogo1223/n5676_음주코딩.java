@@ -17,9 +17,9 @@ public class n5676_음주코딩 {
 
 		StringBuilder sb = new StringBuilder();
 		while((input = br.readLine()) != null) {
-			StringTokenizer st = new StringTokenizer(br.readLine());
-			N = Integer.parseInt(st.nextToken());
-			K = Integer.parseInt(st.nextToken());
+			StringTokenizer st = new StringTokenizer(input);
+			int N = Integer.parseInt(st.nextToken());
+			int K = Integer.parseInt(st.nextToken());
 			arr = new int[N];
 			
 			st = new StringTokenizer(br.readLine());
@@ -37,17 +37,12 @@ public class n5676_음주코딩 {
 				int b = Integer.parseInt(st.nextToken());
 				
 				if(command.equals("C")) {
-					arr[a-1] = (b == 0) ? 0 : (b > 0) ? 1 : -1;
-					update(0, N-1, 1, a-1, b);
+					int temp = (b == 0) ? 0 : (b > 0) ? 1 : -1;
+					arr[a-1] = temp;
+					update(0, N-1, 1, a-1, temp);
 				}else if(command.equals("P")) {
-					int temp = product(0, N-1, 1, a-1, b-1);
-					if(temp == 0) {
-						sb.append("0");
-					}else if(temp > 0) {
-						sb.append("+");
-					}else {
-						sb.append("-");
-					}
+					long temp = product(0, N-1, 1, a-1, b-1);
+					sb.append((temp == 0) ? 0 : (temp > 0) ? "+" : "-");
 				}
 			}
 			sb.append("\n");
@@ -75,7 +70,7 @@ public class n5676_음주코딩 {
 		return tree[node] = update(start, mid, node*2, index, dif) * update(mid+1, end, node*2+1, index, dif);
 	}
 	
-	private static int product(int start, int end, int node, int left, int right) {
+	private static long product(int start, int end, int node, int left, int right) {
 		if(right < start || left > end) return 1;
 		else if(left <= start && end <= right) return tree[node];
 		else {
