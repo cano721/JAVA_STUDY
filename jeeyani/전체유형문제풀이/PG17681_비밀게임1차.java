@@ -1,6 +1,6 @@
 package 전체유형문제풀이;
 
-public class PG17681_비밀지도1차 {
+public class PG17681_비밀게임1차 {
 
 	public static void main(String[] args) {
 
