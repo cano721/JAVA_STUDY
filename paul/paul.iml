@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/KMP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LCA" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MST" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/구현" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/누적합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/다이나믹프로그래밍" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/비트마스킹" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/세그먼트 트리" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/우선순위 큐" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/위상정렬" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/유니온 파인드" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/이분탐색" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/최단경로" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/투포인터" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/프로그래머스" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
