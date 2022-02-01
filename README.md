@@ -70,10 +70,10 @@
   - 매 월 2회만 사용가능 하며, 이월 되지 않습니다!
   - 월 1일에 초기화 됩니다.
 
-**[1월 패스권 사용]**
+**[2월 패스권 사용]**
 
-1. yht0827, paul, 1223gogo, egg528, bear1230, jeeyani, rave189, iamsojung 
-2. yht0827, paul, egg528, 1223gogo, rave189, jeeyani , bear1230 
+1. yht0827, iamsojung 
+2. 
 
 ### 참가자
 
