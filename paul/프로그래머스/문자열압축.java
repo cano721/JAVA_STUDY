@@ -35,5 +35,6 @@ class Solution {
         len += s.length()%n;
 
         return len;
+        
     }
 }
