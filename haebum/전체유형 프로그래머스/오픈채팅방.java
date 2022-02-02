@@ -38,7 +38,7 @@ class Solution {
         String[] answer = new String[info.size()];
         
         int idx = 0;
-        for(String[] s : info){
+        for(Striqng[] s : info){
             if(s[0].equals("1")){
                 answer[idx++] = map.get(s[1]) + "님이 들어왔습니다.";
             }else{
