@@ -19,46 +19,45 @@ public class PG1844_게임맵최단거리 {
 	static boolean[][] visited;
 
 	public static int solution(int[][] maps) {
-int answer = -1;
-        
-        int n = maps.length;
-        int m = maps[0].length;
-        visited = new boolean[m][m];
-        
-        Queue<nodeUser> q = new LinkedList<>();
-        q.offer(new nodeUser(0,0)); //사용자의 캐릭터 시작위치
-        visited[0][0] = true;
-        
-        while(!q.isEmpty()){
-            nodeUser user = q.poll();
-            int x = user.x;
-            int y = user.y;
-            
-            //도착했으면 종료
-            if(x == n-1 && y == m-1) {
-                 answer = maps[x][y];
-                break;
-            }
-            
-            for(int i = 0; i<4; i++){
-                
-                int nx = x + dx[i];
-                int ny = y + dy[i];
-                
-                //범위와 벽인 경우 무시
-                if(nx < 0 || nx >= n || ny < 0 || ny >=m) continue;
-                if(maps[nx][ny] == 0) continue;
-                if(visited[nx][ny]) continue;
-                
+		int answer = -1;
 
-                maps[nx][ny] = maps[x][y] + 1;
-                q.offer(new nodeUser(nx, ny));
-                visited[nx][ny] = true;
+		int n = maps.length;
+		int m = maps[0].length;
+		visited = new boolean[n][m];
 
-            }
-        }
-        
-        return answer;
+		Queue<nodeUser> q = new LinkedList<>();
+		q.offer(new nodeUser(0, 0)); //사용자의 캐릭터 시작위치
+		visited[0][0] = true;
+
+		while (!q.isEmpty()) {
+			nodeUser user = q.poll();
+			int x = user.x;
+			int y = user.y;
+
+			//도착했으면 종료
+			if (x == n - 1 && y == m - 1) {
+				answer = maps[x][y];
+				break;
+			}
+
+			for (int i = 0; i < 4; i++) {
+
+				int nx = x + dx[i];
+				int ny = y + dy[i];
+
+				//범위를 넘어선 경우, 벽인 경우, 방문한 곳 무시
+				if (nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
+				if (maps[nx][ny] == 0) continue;
+				if (visited[nx][ny]) continue;
+
+				maps[nx][ny] = maps[x][y] + 1;
+				q.offer(new nodeUser(nx, ny));
+				visited[nx][ny] = true;
+
+			}
+		}
+
+		return answer;
 	}
 
 	public static class nodeUser {
