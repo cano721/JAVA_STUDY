@@ -86,8 +86,8 @@
 
 - (elwlahd555) - <img src="md-images/elwlahd555.png" height = "30" width="30">
 
-  - 사용가능 언어: 
-  - Contact: 
+  - 사용가능 언어: 중 - java / 하 - Python, C++
+  - Contact: elwlahd555@naver.com
 
 - (bear1230) - <img src="md-images/bear1230.png" height = "30" width="30">
 
