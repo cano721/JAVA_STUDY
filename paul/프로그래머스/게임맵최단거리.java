@@ -1,4 +1,6 @@
 import java.util.*;
+
+//게임맵최단거리
 class Solution {
     
     static class Pair{
