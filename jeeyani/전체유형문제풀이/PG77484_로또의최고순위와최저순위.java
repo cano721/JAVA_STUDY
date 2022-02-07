@@ -17,6 +17,7 @@ public class PG77484_로또의최고순위와최저순위 {
 		int[] answer = new int[2];
 
 		int count = 0;
+		
 		for (int i = 0; i < lottos.length; i++) {
 			for (int j = 0; j < win_nums.length; j++) {
 
