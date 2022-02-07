@@ -15,9 +15,9 @@ class PG_보석쇼핑 {
 		while(true) {
 			if(map.size() == set.size()) {
 				map.put(gems[left], map.get(gems[left])-1);
-                if (map.get(gems[left]) == 0) {
-                    map.remove(gems[left]);
-                }
+				if (map.get(gems[left]) == 0) {
+					map.remove(gems[left]);
+				}
 				left++;
 			}
 			else if(right == gems.length) break;
@@ -34,8 +34,8 @@ class PG_보석쇼핑 {
 				}
 			}
 		}
-        answer[0] = start;
+		answer[0] = start;
 		answer[1] = end;
-        return answer;
-    }
+		return answer;
+	}
 }
