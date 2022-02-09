@@ -47,28 +47,12 @@ public class PG77486_다단계칫솔판매 {
         for(int i = 0; i< seller.length; i++){
             
             int per = pay[i]/10;
-            int money = pay[i]-pay[i]/10;
-            profit.replace(seller[i],money-per);
+            profit.put(seller[i], pay[i]);
+            int temp = profit.get(seller[i]);
             String sell  = seller[i];
            
-            getPay(sell,per,money);
-            /*
-            //관계성을 이용해서 배당금 할당하기
-            while(true){
-                
-                //돈이 1원미만인 경우 분배하지않음 & 더 이상 부모가 아닌 경우
-                if(money < 1) break;
-                if("-".equals(sell)) break;
-                
-                돈 계산하기
-                //1. -10%
-                profit.put(sell,payMap.get(sell)-per);
-                
-                //2. 부모에게 할당하기
-                profit.put(relationship.get(sell),per);
- 
-            }
-            */
+            getPay(sell,per,pay[i]);
+            
         }  
         
         for(int i=0; i<enroll.length; i++){
@@ -81,17 +65,18 @@ public class PG77486_다단계칫솔판매 {
     public static void getPay(String sell,int per,int money){
         
         //돈이 1원미만인 경우 분배하지않음 & 더 이상 부모가 아닌 경우
-        if(money <= 1) return;
+        if(money < 1) return;
         if("-".equals(sell)) return;
                 
         /*돈 계산하기*/
-        //1. -10%
-        profit.replace(sell, profit.get(sell)-per);
+        //1. 해당 판매금액 - 10%
+        profit.put(sell, profit.get(sell)-per);
         
-        //2. 부모에게 할당하기
-        profit.replace(relationship.get(sell),per);
+        //2. 부모에게 10%를 추가로 할당해주기
+        String rel = relationship.get(sell);
+        profit.put(rel, profit.getOrDefault(rel, 0)+per);
         
-        getPay(relationship.get(sell), money/10, money-money/10);
+        getPay(relationship.get(sell), per/10, per);
         
         
     }
