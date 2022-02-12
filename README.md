@@ -72,7 +72,7 @@
 
 **[2월 패스권 사용]**
 
-1. yht0827, iamsojung, bear1230, paul
+1. yht0827, iamsojung, bear1230, paul, rave189
 2. paul, yht0827, iamsojung
 
 ### 참가자
