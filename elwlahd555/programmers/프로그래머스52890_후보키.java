@@ -35,6 +35,7 @@ public class 프로그래머스52890_후보키 {
 				}
 			}
 
+			
 			if (isUnique(keySet, relation)) {
 				candidateKey.add(keySet);
 			}
