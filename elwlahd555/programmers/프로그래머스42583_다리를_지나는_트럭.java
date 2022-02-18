@@ -42,7 +42,6 @@ public class 프로그래머스42583_다리를_지나는_트럭 {
 		}
 		if (n == 0) {
 			return true;
-			
 		}
 		return false;
 	}
