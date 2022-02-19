@@ -1,6 +1,6 @@
 /**
     1. s의 길이만큼 회전
-    1-1) substring 사용
+    1-1) stringBuilder 사용
     
     2. 회전시 해당 문자열이 올바른 괄호 문자열인지 체크
     2-1) stack 사용
@@ -11,10 +11,11 @@ import java.util.*;
 class Solution {
     public int solution(String s) {
         int answer = 0;
-        
+        StringBuilder sb = new StringBuilder(s);
         for(int i = 0; i < s.length(); i++){
-            if(check(s)) answer++;
-            s = s.substring(1,s.length()) + s.charAt(0);
+            if(check(sb.toString())) answer++;
+            sb.append(sb.charAt(0));
+            sb.deleteCharAt(0);
         }
         return answer;
     }
