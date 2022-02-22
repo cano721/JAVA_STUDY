@@ -17,23 +17,21 @@ class Solution {
         }else{
             return "(" + getAnswer(v) + ")" + reverse(u);
         }
-        
     }
     
+    // 균형잡인 문자열의 위치 반환.
     static int splitUV(String s){
-        // 균형잡인 문자열의 위치 반환.
-        int front = 0, back =0;
+        int check=0;
         for(int i =0; i< s.length(); i++){
-            if(s.charAt(i) =='(') front++;
-            else back++;
+            if(s.charAt(i) =='(') check++;
+            else check--;
             
-            if(front !=0 && front == back){
-                return i+1;
-            }
+            if(i !=0 && check ==0) return i+1;
         }
         return s.length();
     }
     
+    // 올바른 문자열인지 확인.
     static boolean isRight(String s){
         int idx = 0;
         for(int i=0; i<s.length(); i++){
@@ -46,6 +44,7 @@ class Solution {
         return true;
     }
     
+    // 나머지 문자들을 뒤집어서 반환,
     static String reverse(String s){
         String val ="";
         for(int i =1; i<s.length()-1; i++){
