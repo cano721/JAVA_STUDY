@@ -72,7 +72,7 @@
 
 **[2월 패스권 사용]**
 
-1. yht0827, bear1230, paul, rave189, woneee99, 1223gogo, elwlahd555
+1. yht0827, bear1230, paul, rave189, woneee99, 1223gogo, elwlahd555, jeeyani
 2. paul, yht0827, rave189, woneee99, elwlahd555
 
 ### 참가자
