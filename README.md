@@ -70,10 +70,10 @@
   - 매 월 2회만 사용가능 하며, 이월 되지 않습니다!
   - 월 1일에 초기화 됩니다.
 
-**[2월 패스권 사용]**
+**[3월 패스권 사용]**
 
-1. yht0827, bear1230, paul, rave189, woneee99, 1223gogo, elwlahd555, jeeyani
-2. paul, yht0827, rave189, woneee99, elwlahd555
+1. paul, 1223gogo
+2. 
 
 ### 참가자
 
@@ -119,7 +119,7 @@
   - 사용가능 언어: 중 - Java, C++
   - Contact: pdh5056@gmail.com
 
-- (Soobinhand) - <img src="./md-images/Soobinhand.png" height = "30" width="30">
+- () - <img src="./md-images/Soobinhand.png" height = "30" width="30">
   - 사용가능 언어: 
   - Contact: 
 - (rave189) - <img src="./md-images/rave189.png" height = "30" width="30">
