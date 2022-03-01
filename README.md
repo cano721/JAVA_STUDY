@@ -39,7 +39,7 @@
 - 문제출제순서(2일단위 카톡 알림)
 
   - cano721 -> bear1230 -> jeeyani -> YHT -> 1223gogo
-  - ->  paul  -> rave189 -> elwlahd555 -> Soobinhand-> woneee99
+  - ->  paul  -> rave189 -> elwlahd555 -> moyu0306 -> woneee99
 
 - 문제 출제 / 제출 기한
   - 20시 ~ 23시 사이에 출제
@@ -119,7 +119,7 @@
   - 사용가능 언어: 중 - Java, C++
   - Contact: pdh5056@gmail.com
 
-- () - <img src="./md-images/Soobinhand.png" height = "30" width="30">
+- (moyu0306) - <img src="./md-images/moyu0306.png" height = "30" width="30">
   - 사용가능 언어: 
   - Contact: 
 - (rave189) - <img src="./md-images/rave189.png" height = "30" width="30">
