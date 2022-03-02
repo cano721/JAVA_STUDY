@@ -120,8 +120,8 @@
   - Contact: pdh5056@gmail.com
 
 - (moyu0306) - <img src="./md-images/moyu0306.png" height = "30" width="30">
-  - 사용가능 언어: 
-  - Contact: 
+  - 사용가능 언어: 중- Java
+  - Contact: moyu01@naver.com
 - (rave189) - <img src="./md-images/rave189.png" height = "30" width="30">
   - 사용가능 언어: 중 - Java
   - Contact: rave189@naver.com
