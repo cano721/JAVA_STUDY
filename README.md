@@ -72,8 +72,8 @@
 
 **[3월 패스권 사용]**
 
-1. paul, 1223gogo, rave189
-2. paul
+1. paul, 1223gogo, rave189, elwlahd555
+2. paul, 1223gogo
 
 ### 참가자
 
