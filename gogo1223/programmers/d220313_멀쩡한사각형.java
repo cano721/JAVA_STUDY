@@ -8,26 +8,18 @@ public class d220313_멀쩡한사각형 {
 		long ans = solution(w, h);	//8 12 80
 		System.out.println(ans);
 	}
-
-	private static long solution(int w, int h) {
+	//타입 확인 필수! long타입으로 변경하기, h/w*i 가 아닌 i*h/w로 계산해야함 
+	//숫자가 클땐 곱하기 먼저하는 걸 습관으로 들이자
+	private static long solution(int W, int H) {
 		long answer = 0;
-		if(w <= 1 || h <= 1) return 0;
-		//좌표평면으로 생각하고 width 1씩 증가하며 지나가는 height 값 빼주었다.
-		//무엇이 문제일까...
-		for (int i = 1; i <= w; i++) {
-			answer += (int)Math.ceil((double)h/w * i) - (int)Math.floor((double)h/w * (i-1));
+        long w = (long)W;
+        long h = (long)H;
+        if(w <= 1 || h <= 1) return 0;
+        double scope = (double)h/w;
+        for (long i = 1; i <= w; i++) {
+			answer += (int)Math.ceil((double)i*h/w) - (int)Math.floor((double)(i-1)*h/w);
 		}
-		
-		return w*h - answer;
-	}
-
-	private static int func(boolean isBefore, int x, int w, int h) {
-		if(isBefore) {
-			return (int)Math.floor((double)h/w * x);
-		}else {
-			return (int)Math.ceil((double)h/w * x);
-		}
-		
+        return w*h - answer;
 	}
 
 }
