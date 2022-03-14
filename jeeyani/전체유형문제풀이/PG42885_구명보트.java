@@ -8,7 +8,7 @@ public class PG42885_구명보트 {
 	public static void main(String[] args) {
 
 
-		int[] people = {70,50,80,50};
+		int[] people = {70,50,80,50}; 
 		
 		int result = solution(people, 100);
 
