@@ -30,6 +30,7 @@ class Solution {
             answer[0] = "*";
             return answer;
         }
+        
         String [] answer = new String [maxY - minY + 1];
         int idx = 0;
         for(int i=maxY;i>=minY;i--){
