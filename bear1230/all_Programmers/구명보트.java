@@ -9,6 +9,7 @@ class Solution {
             if (people[min] + people[max] <= limit) min++;
       
             answer++;
+            
         }
             
         return answer;
