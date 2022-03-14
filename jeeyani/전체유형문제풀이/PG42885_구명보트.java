@@ -12,7 +12,7 @@ public class PG42885_구명보트 {
 		
 		int result = solution(people, 100);
 
-		System.out.println(result);
+		System.out.println(result); 
 
 	}
 
