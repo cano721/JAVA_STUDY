@@ -24,15 +24,15 @@ public class d220315_교점에별만들기 {
 		for (int i = 0; i < line.length - 1; i++) {
 			for (int j = i+1; j < line.length; j++) {
 				//평행 여부 판별
-				int AD_BC = line[i][0]*line[j][1] - line[i][1]*line[j][0];
+				long AD_BC = line[i][0]*line[j][1] - line[i][1]*line[j][0];
 				if(AD_BC == 0) continue;
 				//정수 여부 판별
-				int BF_ED = line[i][1]*line[j][2] - line[i][2]*line[j][1];
-				int EC_AF = line[i][2]*line[j][0] - line[i][0]*line[j][2];
+				long BF_ED = line[i][1]*line[j][2] - line[i][2]*line[j][1];
+				long EC_AF = line[i][2]*line[j][0] - line[i][0]*line[j][2];
 				if(BF_ED % AD_BC != 0 || EC_AF % AD_BC != 0) continue;
 				
-				int x = BF_ED / AD_BC;
-				int y = EC_AF / AD_BC;
+				int x = (int)(BF_ED / AD_BC);
+				int y = (int)(EC_AF / AD_BC);
 				//x, y 순서쌍 저장
 				if(map.containsKey(y)) {
 					if(map.get(y).contains(x)) continue;
