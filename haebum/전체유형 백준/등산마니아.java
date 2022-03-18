@@ -70,6 +70,7 @@ public class 등산마니아{
         }
 
         dp(1);
+        System.out.println(result);
     }
 
     public static int dp(int now){
@@ -89,7 +90,6 @@ public class 등산마니아{
         return dp[now];
     }
 
-    // N개에서 2개를 고르는 경우의 수
     public static long comb(int n){
         return (long)n * (long)(n-1)/2;
     }
