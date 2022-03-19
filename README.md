@@ -72,8 +72,8 @@
 
 **[3월 패스권 사용]**
 
-1. paul, 1223gogo, elwlahd555, YHT, bear1230, jeeyani, rave189 
-2. paul, 1223gogo, YHT
+1. paul, 1223gogo, elwlahd555, YHT, bear1230, jeeyani, rave189, woneee99
+2. paul, 1223gogo, YHT, jeeyani 
 
 ### 참가자
 
@@ -81,7 +81,7 @@
 
 - (cano721) - <img src="md-images/haebum.png" height = "30" width="30">
 
-  - 사용가능 언어 : 중 - Python / 하 - Java,C++,Kotlin
+  - 사용가능 언어 : 중 - Python, Java / 하 - C++,Kotlin
   - Contact : cano721@naver.com
 
 - (elwlahd555) - <img src="md-images/elwlahd555.png" height = "30" width="30">
