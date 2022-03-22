@@ -3,8 +3,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+// arraylist set(idx,val) / add(idx,val) / sublist(from,to ).clear() 등의 메소드는 유용하니 기억할 것.
 
-public class Main { .
+public class Main {
     static int[] dx = new int[]{-1, 0 , 1, -1, 1 ,-1, 0, 1 };
     static int[] dy = new int[]{-1, -1, -1, 0, 0, 1, 1, 1};
     public static void main(String[] args) throws IOException {
@@ -20,6 +21,7 @@ public class Main { .
             String[] split = br.readLine().split(" ");
             for(int j=0; j<N;j++){
                 map[i][j] = new LandInfo(5, Integer.parseInt(split[j]));
+//                System.out.println(map[i][j]    );
             }
         }
 
@@ -43,47 +45,43 @@ public class Main { .
 
     public static void ssfw(LandInfo[][] map){
         int len = map.length;
+        int[][] babyTree = new int[len][len];
 
         for(int i=0; i<len;i++){
             for(int j=0; j<len; j++){
                 LandInfo li = map[i][j];
                 int deadtree = 0;
                 int deadIdx = li.trees.size();
-                int babyTree = 0;
-                Collections.sort(li.trees);
+
                 for(int k =0; k< li.trees.size(); k++){
                     int age = li.trees.get(k);
                     if(li.val >= age) {
                         li.val -= age;
                         li.trees.set(k,age+1);
-//                        System.out.println(li.trees.get(k)+" "+age);
-                        if(li.trees.get(k) % 5 == 0) babyTree++;
+
+                        if((age+1) % 5 == 0) babyTree[i][j]++;
                     }
                     else{
                         if(deadIdx == li.trees.size()) deadIdx = k;
                         deadtree += age/2;
-//                        System.out.println(k);
-//
-//                        li.trees.remove(k--);
                     }
                 }
-                System.out.println(i +" "+ j +" "+deadIdx+" "+li.trees.size());
                 li.trees.subList(deadIdx,li.trees.size()).clear();
                 li.val += (deadtree + li.fur);
-                newTree(map,i,j,babyTree);
             }
         }
+        for(int i=0; i<len; i++){for(int j=0; j<len;j++) {newTree(map,i,j,babyTree[i][j]); }}// 위치 조심.
     }
 
-    public static void newTree(LandInfo[][] map, int row, int col, int num){
+    public static void newTree(LandInfo[][] map, int row, int col, int num){// dependency가 존재하는지 확인할 것. task dependency 뿐만이 아닌 data dependency도 존재함
         if(num ==0) return;
         int len = map.length;
-        System.out.println("baby" +row +" "+ col +" "+num);
+
         for(int i=0; i< 8; i++){
             int r = row +dy[i];
             int c = col +dx[i];
             if(r<0||r>=len||c<0||c>=len) continue;
-            map[r][c].trees.add(0,1);
+            for(int j=0; j<num; j++) map[r][c].trees.add(0,1);
         }
     }
 
@@ -93,6 +91,5 @@ class LandInfo{
     ArrayList<Integer> trees = new ArrayList<>();
     int val = 0;
     int fur = 0;
-    public LandInfo(int v, int f){ val = v; fur = f;};
+    public LandInfo(int v, int f){ val = v; fur = f;}
 }
-
