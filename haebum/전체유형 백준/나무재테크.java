@@ -99,11 +99,11 @@ public class 나무재테크 {
                         tree++;
                         temp.add(tree);
                     }else{
-                        death[i][j] += tree;
+                        death[i][j] += tree/2;
                     }
                 }
                 trees.trees = temp;
-                trees.nutriment = death[i][j]/2 + curNutrement;
+                trees.nutriment = death[i][j] + curNutrement;
                 death[i][j] = 0;
             }
         }
