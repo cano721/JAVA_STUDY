@@ -72,7 +72,7 @@
 
 **[3월 패스권 사용]**
 
-1. paul, 1223gogo, elwlahd555, YHT, bear1230, jeeyani, rave189, woneee99
+1. paul, 1223gogo, elwlahd555, YHT, bear1230, jeeyani, rave189, woneee99, cano721
 2. paul, 1223gogo, YHT, jeeyani, woneee99, bear1230 
 
 ### 참가자
