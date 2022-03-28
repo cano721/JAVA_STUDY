@@ -2,7 +2,7 @@ package elwlahd555.baekjoon;
 
 import java.util.Scanner;
 
-public class backjoon17144_미세먼지_안녕 {
+public class baekjoon17144_미세먼지_안녕 {
 	static int R, C, T;
 	static int dx[] = { -1, 1, 0, 0 };
 	static int dy[] = { 0, 0, -1, 1 };

@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class backjoon19237_어른_상어 {
+public class baekjoon19237_어른_상어 {
 	private static class Shark implements Comparable<Shark> {
 		int x, y, number, smell, direction;
 		int nextDirect[][];

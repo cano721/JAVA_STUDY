@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.StringTokenizer;
  
-public class backjoon16234_인구_이동 {
+public class baekjoon16234_인구_이동 {
  
     static int N, L, R, map[][];
     static boolean visited[][];

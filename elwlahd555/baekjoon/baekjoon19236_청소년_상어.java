@@ -3,7 +3,7 @@ package elwlahd555.baekjoon;
 import java.util.*;
 import java.io.*;
 
-public class backjoon19236_청소년_상어 {
+public class baekjoon19236_청소년_상어 {
 	public static int[][] map; //전체 맵 
 	public static Fish[] fish; //물고기 정보 저장 
 	public static int[] dx = {-1, -1, 0, 1, 1, 1, 0, -1}; //상, 상좌, 좌, 좌하, 하, 하우, 우, 상우
