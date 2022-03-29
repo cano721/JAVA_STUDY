@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 /*
  * 구현 bfs
@@ -86,7 +88,7 @@ public class BJ21609_상어중학교 {
 		}
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
-				map[i][j] = mapCopy[n - 1 - j][i];
+				map[i][j] = mapCopy[i][j];
 			}
 		}
 
@@ -137,7 +139,7 @@ public class BJ21609_상어중학교 {
 					if (!visited[i][j] && map[i][j] == k) {
 						Queue<Block> q = new LinkedList<>();
 						List<Block> groupList = new ArrayList<>();
-						int rainbow = 0;
+						int rainbow = 0; //무지개블록갯수 체크
 
 						q.offer(new Block(i, j));
 						groupList.add(new Block(i, j)); //기준점의 좌표
@@ -179,7 +181,8 @@ public class BJ21609_상어중학교 {
 						if(maxCnt < groupCnt || (maxCnt == groupCnt && maxRainbowCnt < rainbow)
 						|| (maxCnt == groupCnt && maxRainbowCnt == rainbow && maxGroup.get(0).x*100 + maxGroup.get(0).y < groupList.get(0).x*100 + groupList.get(0).y)) {
 							
-							maxGroup.addAll(groupList);
+							//maxGroup.addAll(groupList);
+							maxGroup = groupList.stream().collect(Collectors.toList());
 							maxRainbowCnt = rainbow;
 						}
 						
