@@ -110,7 +110,7 @@ public class 마법사상어와블리자드 {
     // 폭파 구슬그룹 체크 및 폭파 함수
     public static boolean groupBead(){
         boolean check = false;
-        ArrayList<int[]> curGroup = new ArrayList(initialCapacity)<>(); // 현재 그룹
+        ArrayList<int[]> curGroup = new ArrayList<>(); // 현재 그룹
         ArrayList<int[]> boomGroup = new ArrayList<>(); // 폭파할 그룹
 
         int beadNum = 0; // 구슬번호
