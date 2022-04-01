@@ -39,7 +39,7 @@
 - 문제출제순서(2일단위 카톡 알림)
 
   - cano721 -> bear1230 -> jeeyani -> YHT -> 1223gogo
-  - ->  paul  -> rave189 -> elwlahd555 -> moyu0306 -> 
+  - ->  paul  -> rave189 -> elwlahd555 -> moyu0306 -> kwonyl14
 
 - 문제 출제 / 제출 기한
   - 20시 ~ 23시 사이에 출제
@@ -99,7 +99,7 @@
   - 사용가능 언어: 중 - Java, 하 - C++
   - Contact: jeeyeon27@naver.com
 
-- () - 
+- (kwonyl14) - <img src="./md-images/kwonyl14.png" height = "30" width="30">
 
   - 사용가능 언어: 
   - Contact: 
