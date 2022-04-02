@@ -89,37 +89,26 @@ public class baekjoon21611_마법사_상어와_블리자드 {
 			int s = Integer.parseInt(st.nextToken());
 			if (d == 1) {
 				for (int j = 0; j < s; j++) {
-					if (ball.size() < left.get(j) - j) {
-						break;
-					}
-					ball.remove(left.get(j) - j);
+					ball.remove(up.get(j) - j);
 				}
 			} else if (d == 2) {
 				for (int j = 0; j < s; j++) {
-					if (ball.size() < down.get(j) - j) {
-						break;
-					}
 					ball.remove(down.get(j) - j);
 				}
 			} else if (d == 3) {
 				for (int j = 0; j < s; j++) {
-					if (ball.size() < right.get(j) - j) {
-						break;
-					}
-					ball.remove(right.get(j) - j);
+					ball.remove(left.get(j) - j);
 				}
 			} else {
 				for (int j = 0; j < s; j++) {
-					if (ball.size() < up.get(j) - j) {
-						break;
-					}
-					ball.remove(up.get(j) - j);
+					ball.remove(right.get(j) - j);
 				}
 			}
 			while (check(ball)) {
 				int num = ball.poll();
 				int count = 1;
-				for (int j = 0; j < ball.size(); j++) {
+				int size = ball.size();
+				for (int j = 0; j < size; j++) {
 					int nextNum = ball.poll();
 					if (nextNum == num) {
 						count++;
@@ -135,7 +124,28 @@ public class baekjoon21611_마법사_상어와_블리자드 {
 						count = 1;
 					}
 				}
+				if (count < 4) {
+					for (int k = 0; k < count; k++) {
+						ball.add(num);
+					}
+				}
 			}
+			int size = ball.size();
+			int num = ball.poll();
+			int count = 1;
+			for (int j = 1; j < size; j++) {
+				int tempNum = ball.poll();
+				if (tempNum == num) {
+					count++;
+				} else {
+					ball.add(count);
+					ball.add(num);
+					num = tempNum;
+					count = 1;
+				}
+			}
+			ball.add(count);
+			ball.add(num);
 		}
 		System.out.println(answer);
 	}
