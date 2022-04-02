@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class p21611 {
+public class Main {
 
     static class Pair{
         int y,x;
@@ -14,7 +14,7 @@ public class p21611 {
     static int n, m;
     static int[][] board;
     static int[] d, s;
-    static int[][] dydx = { {0,0}, {-1,0}, {1,0}, {-1,0}, {0,1} }; // 위 아래 좌 우  1,2,3,4
+    static int[][] dydx = { {0,0}, {-1,0}, {1,0}, {0,-1}, {0,1} }; // 위 아래 좌 우  1,2,3,4
     static List<Pair> mList = new ArrayList<>();
     static Pair center;
     static int bcnt[] = new int[4]; // 터진 구술 갯수
@@ -57,7 +57,6 @@ public class p21611 {
             while(explore() != 0) ;
             move();
             change();
-            showBoard();
         }
         System.out.println(bcnt[1] + 2*bcnt[2] + 3*bcnt[3]);
     }
@@ -66,7 +65,6 @@ public class p21611 {
         return (y>=0 && y<n && x>=0 && x<n);
     }
 
-    // 구슬 위치 넣기
     static void makeMapList(){
         int ny = 0, nx =0;
         int[] dy= {0,1,0,-1};
@@ -121,7 +119,6 @@ public class p21611 {
                         total++;
                     }
                 }
-                
                 sCnt =1;
                 prev = now;
                 list = new ArrayList<>();
@@ -131,11 +128,11 @@ public class p21611 {
 
         if(sCnt>=4){
             for(Pair target : list){
+                bcnt[board[target.y][target.x]]++;
                 board[target.y][target.x] = 0;
                 total++;
             }
         }
-        
         return total;
     }
 
@@ -157,13 +154,12 @@ public class p21611 {
 
     }
 
-    //구슬 변화
     static void change(){
         int[][] nboard = new int[n][n];
-        int nidx =0, idx =0, scnt =1, prev = board[center.y][center.x-1];
+        int nidx =0,  scnt =1, prev = board[center.y][center.x-1];
 
         for(int i=1; i< mList.size(); i++){
-            idx = i;
+            
             Pair pos = mList.get(i);
             int now = board[pos.y][pos.x];
             if(now == prev) {
@@ -181,12 +177,7 @@ public class p21611 {
             }
         }
 
-        if (nidx < mList.size() && scnt > 1) {
-            Pair A = mList.get(nidx++);
-            Pair B = mList.get(nidx++);
-            nboard[A.y][A.x] = scnt;
-            nboard[B.y][B.x] = prev;
-        }
+        
         board= nboard;
     }
 
