@@ -39,18 +39,18 @@
 - 문제출제순서(2일단위 카톡 알림)
 
   - cano721 -> bear1230 -> jeeyani -> YHT -> 1223gogo
-  - ->  paul  -> rave189 -> elwlahd555 -> moyu0306 -> woneee99
+  - ->  paul  -> rave189 -> elwlahd555 -> moyu0306 -> kwonyl14
 
 - 문제 출제 / 제출 기한
   - 20시 ~ 23시 사이에 출제
   - 문제 제출(문제풀이여부.md에 낼것)
   - 제출기한 : 출제 마감 시간 다음날 08시로 설정(32시간)
 - 문제 출제
-  - 백준 기준 실버X~골드X, 프로그래머스 4단계 이하
+  - 백준 기준 실버X~플레X, 프로그래머스 4단계 이하
   - 브루트포스,재귀(백트래킹), DFS & BFS, 우선순위큐, 투포인터&슬라이딩 윈도우, DP
   - 다익스트라&벨만포드&플로이드워셜, 유니온파인드, MST(크루스칼,프림)
-  - 이분탐색, LCA, 위상정렬, 누적합, 비트마스크, KMP, 세그먼트트리 & 펜윅트리
-- 토의시간(참여 가능한 사람만) - 현재 미진행
+  - 이분탐색, LCA, 위상정렬, 누적합, 비트마스크, KMP, 세그먼트트리 & 펜윅트리, 트리DP
+- 토의시간(참여 가능한 사람만) - 현재 코테관련 궁금증 있을때만 서로 논의하에 시간정해서 진행 중
   - 매주 일요일 20시
   - Discord 통해서 진행
   - 다음주 개념과 이번주 문제 풀이 공유
@@ -72,8 +72,8 @@
 
 **[3월 패스권 사용]**
 
-1. paul, 1223gogo, elwlahd555, YHT, bear1230, jeeyani, rave189, woneee99, cano721
-2. paul, 1223gogo, YHT, jeeyani, woneee99, bear1230, cano721
+1. paul
+2. 
 
 ### 참가자
 
@@ -99,10 +99,10 @@
   - 사용가능 언어: 중 - Java, 하 - C++
   - Contact: jeeyeon27@naver.com
 
-- (woneee99) - <img src="./md-images/woneee99.png" height = "30" width="30">
+- (kwonyl14) - <img src="./md-images/kwonyl14.png" height = "30" width="30">
 
-  - 사용가능 언어: 중 - Java / 하 - C++
-  - Contact: woneee99@naver.com
+  - 사용가능 언어: 
+  - Contact: 
 
 - (yht0827) - <img src="./md-images/YHT.png" height = "30" width="30">
 
