@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class p21611 {
+public class Main {
 
     static class Pair{
         int y,x;
@@ -14,15 +14,13 @@ public class p21611 {
     static int n, m;
     static int[][] board;
     static int[] d, s;
-    static int[][] dydx = { {0,0}, {-1,0}, {1,0}, {-1,0}, {0,1} }; // 위 아래 좌 우  1,2,3,4
+    static int[][] dydx = { {0,0}, {-1,0}, {1,0}, {0,-1}, {0,1} }; // 위 아래 좌 우  1,2,3,4
     static List<Pair> mList = new ArrayList<>();
     static Pair center;
     static int bcnt[] = new int[4]; // 터진 구술 갯수
 
     public static void main(String[] args) throws Exception {
         input();
-        makeMapList();
-        print();
         pro();
     }
 
@@ -48,17 +46,6 @@ public class p21611 {
             d[i] = Integer.parseInt(st.nextToken());
             s[i] = Integer.parseInt(st.nextToken());
         }
-    }
-
-    public static void print(){
-        System.out.println("-------------------");
-        for(int i = 0; i < n; i++){
-            for(int j = 0; j < n; j++){
-                System.out.print(board[i][j] +" ");
-            }
-            System.out.println();
-        }
-        System.out.println("-------------------");
     }
 
     public static void pro() {
@@ -104,7 +91,7 @@ public class p21611 {
 
     //k번째 방향 거리 부수기.
     static void destroy(int k){
-        Pair pos = center;
+        Pair pos = new Pair(center.y, center.x);
         for(int i= 1; i<= s[k]; i++){
              pos.y += dydx[d[k]][0];
              pos.x += dydx[d[k]][1];
@@ -113,8 +100,9 @@ public class p21611 {
         }
     }
 
+    // 연속적인거 터트리기 
     static int explore(){
-        int total =0, sCnt =0, prev =-1;
+        int total =0, sCnt =1, prev =-1;
         List<Pair> list = new ArrayList<>();
         for(Pair pair : mList){
             int now = board[pair.y][pair.x];
@@ -131,19 +119,20 @@ public class p21611 {
                         total++;
                     }
                 }
-                sCnt =0;
+                sCnt =1;
                 prev = now;
                 list = new ArrayList<>();
+                list.add(pair);
             }
         }
 
         if(sCnt>=4){
             for(Pair target : list){
+                bcnt[board[target.y][target.x]]++;
                 board[target.y][target.x] = 0;
                 total++;
             }
         }
-        
         return total;
     }
 
@@ -156,6 +145,7 @@ public class p21611 {
             }
         }
         
+        //찾은 구슬 순서대로 보드에 넣기.
         board = new int[n][n];
         for(int i =0; i< bead.size(); i++){
             Pair pos = mList.get(i);
@@ -166,29 +156,39 @@ public class p21611 {
 
     static void change(){
         int[][] nboard = new int[n][n];
-        int nidx =0, prev = -1, scnt =1;
-        for(Pair pos : mList){
+        int nidx =0,  scnt =1, prev = board[center.y][center.x-1];
+
+        for(int i=1; i< mList.size(); i++){
+            
+            Pair pos = mList.get(i);
             int now = board[pos.y][pos.x];
             if(now == prev) {
                 scnt++;
             }else{
-                if(nidx >= n*n ) break;
+                if(nidx >= mList.size() ) break;
                 Pair A = mList.get(nidx++);
                 Pair B = mList.get(nidx++);
                 nboard[A.y][A.x] = scnt;
                 nboard[B.y][B.x] = prev;
 
+                if(now ==0) break;
                 prev = now;
                 scnt = 1;
             }
         }
 
-        if (nidx < n * n && scnt > 1) {
-            Pair A = mList.get(nidx++);
-            Pair B = mList.get(nidx++);
-            nboard[A.y][A.x] = scnt;
-            nboard[B.y][B.x] = prev;
-        }
+        
         board= nboard;
+    }
+
+    static void showBoard(){
+        for(int i =0; i<n; i++){
+            for(int j=0; j<n; j++){
+                System.out.print(board[i][j] +" ");
+            }
+            System.out.println();
+        }
+
+        System.out.println();System.out.println();
     }
 }
