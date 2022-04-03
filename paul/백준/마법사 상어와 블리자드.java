@@ -22,6 +22,7 @@ public class p21611 {
     public static void main(String[] args) throws Exception {
         input();
         makeMapList();
+        print();
         pro();
     }
 
@@ -47,6 +48,17 @@ public class p21611 {
             d[i] = Integer.parseInt(st.nextToken());
             s[i] = Integer.parseInt(st.nextToken());
         }
+    }
+
+    public static void print(){
+        System.out.println("-------------------");
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n; j++){
+                System.out.print(board[i][j] +" ");
+            }
+            System.out.println();
+        }
+        System.out.println("-------------------");
     }
 
     public static void pro() {
