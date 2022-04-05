@@ -38,7 +38,7 @@
 
 - 문제출제순서(2일단위 카톡 알림)
 
-  - cano721 -> bear1230 -> jeeyani -> YHT -> 1223gogo
+  - cano721 -> bear1230 -> cladren123 -> YHT -> 1223gogo
   - ->  paul  -> rave189 -> elwlahd555 -> moyu0306 -> kwonyl14
 
 - 문제 출제 / 제출 기한
@@ -94,10 +94,10 @@
   - 사용가능 언어: 중 - C++, C# / 하 - Java, Python
   - Contact: beear1230@gmail.com
 
-- (jeeyani) - <img src="./md-images/jeeyani.png" height = "30" width="30">
+- (cladren123) - <img src="./md-images/cladren123.png" height = "30" width="30">
 
-  - 사용가능 언어: 중 - Java, 하 - C++
-  - Contact: jeeyeon27@naver.com
+  - 사용가능 언어: 
+  - Contact: 
 
 - (kwonyl14) - <img src="./md-images/kwonyl14.png" height = "30" width="30">
 
