@@ -2,50 +2,58 @@ import java.io.*;
 import java.util.*;
 
 public class BOJ_14500 {
-	static int[][][] polynominos = {
-		{{0, 0}, {0, 1}, {1, 0}, {1, 1}},
-		{{0, 0}, {0, 1}, {0, 2}, {0, 3}}, {{0, 0}, {1, 0}, {2, 0}, {3, 0}},
-		{{0, 0}, {0, 1}, {0, 2}, {1, 1}}, {{0, 0}, {1, 0}, {2, 0}, {1, 1}}, {{1, 0}, {0, 1}, {1, 1}, {2, 1}}, {{1, 0}, {0, 1}, {1, 1}, {1, 2}},
-		{{0, 0}, {0, 1}, {0, 2}, {1, 2}}, {{1, 0}, {1, 1}, {1, 2}, {0, 2}}, {{0, 0}, {1, 0}, {2, 0}, {2, 1}}, {{2, 0}, {0, 1}, {1, 1}, {2, 1}}, {{0, 0}, {0, 1}, {0, 2}, {1, 0}}, {{0, 0}, {1, 0}, {1, 1}, {1, 2}}, {{0, 0}, {1, 0}, {0, 1}, {2, 0}}, {{0, 0}, {0, 1}, {1, 1}, {2, 1}},
-		{{0, 0}, {1, 0}, {1, 1}, {2, 1}}, {{1, 0}, {1, 1}, {0, 1}, {0, 2}}, {{0, 0}, {0, 1}, {1, 1}, {1, 2}}, {{0, 1}, {1, 1}, {1, 0}, {2, 0}}
-	};
-	static int[][] matrix;
-	static int maxRes = 0, Row, Col;
+	static int[][][] Polyomino = { { { 0, 0 }, { 0, 1 }, { 1, 0 }, { 1, 1 } },
+			{ { 0, 0 }, { 0, 1 }, { 0, 2 }, { 0, 3 } }, { { 0, 0 }, { 1, 0 }, { 2, 0 }, { 3, 0 } },
+			{ { 0, 0 }, { 0, 1 }, { 0, 2 }, { 1, 1 } }, { { 0, 0 }, { 1, 0 }, { 2, 0 }, { 1, 1 } },
+			{ { 1, 0 }, { 0, 1 }, { 1, 1 }, { 2, 1 } }, { { 1, 0 }, { 0, 1 }, { 1, 1 }, { 1, 2 } },
+			{ { 0, 0 }, { 0, 1 }, { 0, 2 }, { 1, 2 } }, { { 1, 0 }, { 1, 1 }, { 1, 2 }, { 0, 2 } },
+			{ { 0, 0 }, { 1, 0 }, { 2, 0 }, { 2, 1 } }, { { 2, 0 }, { 0, 1 }, { 1, 1 }, { 2, 1 } },
+			{ { 0, 0 }, { 0, 1 }, { 0, 2 }, { 1, 0 } }, { { 0, 0 }, { 1, 0 }, { 1, 1 }, { 1, 2 } },
+			{ { 0, 0 }, { 1, 0 }, { 0, 1 }, { 2, 0 } }, { { 0, 0 }, { 0, 1 }, { 1, 1 }, { 2, 1 } },
+			{ { 0, 0 }, { 1, 0 }, { 1, 1 }, { 2, 1 } }, { { 1, 0 }, { 1, 1 }, { 0, 1 }, { 0, 2 } },
+			{ { 0, 0 }, { 0, 1 }, { 1, 1 }, { 1, 2 } }, { { 0, 1 }, { 1, 1 }, { 1, 0 }, { 2, 0 } } };
+	
+	static int[][] map;
+	static int max = 0; 
+	static int row, col;
+
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		Row = Integer.parseInt(st.nextToken());
-		Col = Integer.parseInt(st.nextToken());
-		matrix = new int[Row][Col];
-		for (int i = 0; i < Row; i++) {
+		row = Integer.parseInt(st.nextToken());
+		col = Integer.parseInt(st.nextToken());
+		map = new int[row][col];
+
+		for (int i = 0; i < row; i++) {
 			st = new StringTokenizer(br.readLine());
-			for (int j = 0; j < Col; j++) {
-				matrix[i][j] = Integer.parseInt(st.nextToken());
+			for (int j = 0; j < col; j++) {
+				map[i][j] = Integer.parseInt(st.nextToken());
 			}
 		}
-		for (int i = 0; i < Row; i++) {
-			for(int j = 0; j < Col; j++) {
-				calculate(i, j);
+		for (int i = 0; i < row; i++) {
+			for (int j = 0; j < col; j++) {
+				cal(i, j);
 			}
 		}
-		System.out.println(maxRes);
+		System.out.println(max);
 	}
 
-	private static void calculate(int row, int col) {
-		for (int i = 0; i < polynominos.length; i++) {
-			int tmpRes = 0;
+	private static void cal(int n, int m) {
+		for (int i = 0; i < Polyomino.length; i++) {
+			int tmp = 0;
 			boolean isOk = true;
 			for (int j = 0; j < 4; j++) {
-				int nRow = row + polynominos[i][j][0];
-				int nCol = col + polynominos[i][j][1];
-				if(nRow < Row && nCol < Col) {
-					tmpRes += matrix[nRow][nCol];
+				int nRow = n + Polyomino[i][j][0];
+				int nCol = m + Polyomino[i][j][1];
+				if (nRow < row && nCol < col) {
+					tmp += map[nRow][nCol];
 				} else {
 					isOk = false;
 					break;
 				}
 			}
-			if(isOk) maxRes = Math.max(tmpRes, maxRes);
+			if (isOk)
+				max = Math.max(tmp, max);
 		}
 	}
 }
