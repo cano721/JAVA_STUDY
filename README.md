@@ -96,8 +96,8 @@
 
 - (cladren123) - <img src="./md-images/cladren123.png" height = "30" width="30">
 
-  - 사용가능 언어: 
-  - Contact: 
+  - 사용가능 언어: Java, Python
+  - Contact: cladren12332@naver.com
 
 - (kwonyl14) - <img src="./md-images/kwonyl14.png" height = "30" width="30">
 
