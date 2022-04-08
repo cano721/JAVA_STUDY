@@ -1,0 +1,140 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch 나무재테크",
+            "request": "launch",
+            "mainClass": "나무재테크",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 달리기",
+            "request": "launch",
+            "mainClass": "달리기",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 동전1",
+            "request": "launch",
+            "mainClass": "동전1",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 등산마니아",
+            "request": "launch",
+            "mainClass": "등산마니아",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 로봇",
+            "request": "launch",
+            "mainClass": "로봇",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 마법사상어와블리자드",
+            "request": "launch",
+            "mainClass": "마법사상어와블리자드",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 마법사상어와비바라기",
+            "request": "launch",
+            "mainClass": "마법사상어와비바라기",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 미세먼지안녕",
+            "request": "launch",
+            "mainClass": "미세먼지안녕",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 숫자구슬",
+            "request": "launch",
+            "mainClass": "숫자구슬",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 아기상어",
+            "request": "launch",
+            "mainClass": "아기상어",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 앱",
+            "request": "launch",
+            "mainClass": "앱",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 연구소",
+            "request": "launch",
+            "mainClass": "연구소",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 인구이동",
+            "request": "launch",
+            "mainClass": "인구이동",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 주사위굴리기",
+            "request": "launch",
+            "mainClass": "주사위굴리기",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 청소년상어",
+            "request": "launch",
+            "mainClass": "청소년상어",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 치킨배달",
+            "request": "launch",
+            "mainClass": "치킨배달",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 테트로미노",
+            "request": "launch",
+            "mainClass": "테트로미노",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch 퍼즐",
+            "request": "launch",
+            "mainClass": "퍼즐",
+            "projectName": "전체유형 백준_fd7086ea"
+        }
+    ]
+}
