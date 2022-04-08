@@ -57,9 +57,11 @@ public class baekjoon1726_로봇 {
 				int y = p.y + (dy[p.direct] * i);
 				if (x <= 0 || y <= 0 || x > M || y > N) continue;
 				
-				if (map[x][y] == 0 && !visited[x][y][p.direct]) {
-					visited[x][y][p.direct] = true;
-					que.add(new Point(x, y, p.direct, p.cnt + 1));
+				if (map[x][y] == 0) {
+					if(!visited[x][y][p.direct]) {
+						visited[x][y][p.direct] = true;
+						que.add(new Point(x, y, p.direct, p.cnt + 1));
+					}
 				} else {
 					break;
 				}
