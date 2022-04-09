@@ -101,8 +101,8 @@
 
 - (kwonyl14) - <img src="./md-images/kwonyl14.png" height = "30" width="30">
 
-  - 사용가능 언어: 
-  - Contact: 
+  - 사용가능 언어: Java
+  - Contact: sqk86577@gmail.com
 
 - (yht0827) - <img src="./md-images/YHT.png" height = "30" width="30">
 
