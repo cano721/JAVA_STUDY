@@ -17,7 +17,6 @@ class Solution {
 			for (int time : times) {
 				sum += mid / time;
 			}
-
 			if (sum >= n) {
 				answer = Math.min(answer, mid);
 				end = mid - 1;
