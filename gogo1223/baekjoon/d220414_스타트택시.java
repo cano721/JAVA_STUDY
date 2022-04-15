@@ -63,8 +63,8 @@ public class d220414_스타트택시 {
 			Taxi minTaxi = new Taxi(min, min, min, min);
 			
 			for (int i = 0; i < M; i++) {
-				visited = new boolean[N+1][N+1];
 				if(visit[i]) continue;
+				visited = new boolean[N+1][N+1];
 				int val = bfs(x, y, passenger[i].startX, passenger[i].startY);
 				if(val == -1) continue;
 				if(min > val) {
