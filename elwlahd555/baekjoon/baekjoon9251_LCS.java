@@ -10,8 +10,8 @@ public class baekjoon9251_LCS {
 		String first = br.readLine();
 		String second = br.readLine();
 		int[][] memo = new int[first.length() + 1][second.length() + 1];
-		for (int i = 1; i < first.length(); i++) {
-			for (int j = 1; j < second.length(); j++) {
+		for (int i = 1; i <= first.length(); i++) {
+			for (int j = 1; j <= second.length(); j++) {
 				if (first.charAt(i - 1) == second.charAt(j - 1)) {
 					memo[i][j] = memo[i - 1][j - 1] + 1;
 				} else {
