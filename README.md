@@ -72,7 +72,7 @@
 
 **[4월 패스권 사용]**
 
-1. paul, bear1230, jeeyani, YHT, 1223gogo, moyu0306, kwonyl14, cladren123, elwlahd555
+1. paul, bear1230, jeeyani, YHT, 1223gogo, moyu0306, kwonyl14, cladren123, elwlahd555, rave189
 2. moyu0306, 1223gogo, jeeyani, paul, YHT, bear1230, cladren123, kwonyl14, elwlahd555
 
 ### 참가자
