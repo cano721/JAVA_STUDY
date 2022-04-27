@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch 통나무옮기기",
+            "request": "launch",
+            "mainClass": "통나무옮기기",
+            "projectName": "전체유형 백준_fd7086ea"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
