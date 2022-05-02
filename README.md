@@ -38,9 +38,7 @@
 
 - 문제출제순서(2일단위 카톡 알림)
 
-  - cano721 -> bear1230 -> cladren123 -> YHT -> 1223gogo
-  - ->  paul  -> rave189 -> elwlahd555 -> moyu0306 -> kwonyl14
-
+  - cano721 -> bear1230 -> cladren123 -> rave189 -> elwlahd555 -> moyu0306 -> kwonyl14
 - 문제 출제 / 제출 기한
   - 20시 ~ 23시 사이에 출제
   - 문제 제출(문제풀이여부.md에 낼것)
@@ -72,8 +70,8 @@
 
 **[4월 패스권 사용]**
 
-1. paul, bear1230, jeeyani, YHT, 1223gogo, moyu0306, kwonyl14, cladren123, elwlahd555, rave189
-2. moyu0306, 1223gogo, jeeyani, paul, YHT, bear1230, cladren123, kwonyl14, elwlahd555
+1. bear1230
+2. 
 
 ### 참가자
 
