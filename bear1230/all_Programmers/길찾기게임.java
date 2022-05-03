@@ -22,6 +22,7 @@ class Solution {
 		}
 	};
 
+	
 	public static void addNode(Node par, Node chi) {
 		if (par.x > chi.x) {
 			if (par.left == null)
