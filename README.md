@@ -68,9 +68,9 @@
   - 매 월 2회만 사용가능 하며, 이월 되지 않습니다!
   - 월 1일에 초기화 됩니다.
 
-**[4월 패스권 사용]**
+**[5월 패스권 사용]**
 
-1. bear1230, moyu0306
+1. bear1230, moyu0306, kwonyl14
 2. moyu0306
 
 ### 참가자
@@ -101,21 +101,6 @@
 
   - 사용가능 언어: Java
   - Contact: sqk86577@gmail.com
-
-- (yht0827) - <img src="./md-images/YHT.png" height = "30" width="30">
-
-  - 사용가능 언어: 중 - Java / 하 - Python
-  - Contact: yangheetae0827@naver.com
-
-- (1223gogo) - <img src="./md-images/1223gogo.png" height = "30" width="30">
-
-  - 사용가능 언어: 중 - Java, C++, JavaScript / 하 - python
-  - Contact: 1223gogo@naver.com
-
-- (paul) - <img src="./md-images/paul.png" height = "30" width="30">
-
-  - 사용가능 언어: 중 - Java, C++
-  - Contact: pdh5056@gmail.com
 
 - (moyu0306) - <img src="./md-images/moyu0306.png" height = "30" width="30">
   - 사용가능 언어: 중- Java
