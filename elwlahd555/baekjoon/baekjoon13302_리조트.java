@@ -16,10 +16,11 @@ public class baekjoon13302_리조트 {
 		N = Integer.parseInt(st.nextToken());
 		M = Integer.parseInt(st.nextToken());
 		map = new boolean[N + 1];
-
-		st = new StringTokenizer(br.readLine());
-		for (int i = 0; i < M; i++) {
-			map[Integer.parseInt(st.nextToken())] = true;
+		if (M > 0) {
+			st = new StringTokenizer(br.readLine());
+			for (int i = 0; i < M; i++) {
+				map[Integer.parseInt(st.nextToken())] = true;
+			}
 		}
 		dp = new int[N + 1][N + 1];
 		for (int i = 0; i < N + 1; i++) {
