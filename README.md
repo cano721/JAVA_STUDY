@@ -70,8 +70,8 @@
 
 **[5월 패스권 사용]**
 
-1. bear1230, moyu0306, kwonyl14, elwlahd555
-2. moyu0306
+1. bear1230, moyu0306, kwonyl14, elwlahd555, rave189
+2. moyu0306, bear1230
 
 ### 참가자
 
