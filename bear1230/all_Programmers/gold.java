@@ -26,6 +26,7 @@ class Solution {
                 gold += (nowG < cnt * nowW) ? nowG : cnt * nowW;
                 silver += (nowS < cnt * nowW) ? nowS : cnt * nowW;
                 add += (nowG + nowS < cnt * nowW) ? nowG + nowS : cnt * nowW;
+                
             }
 
             if (gold >= a && silver >= b && add >= a + b) {
