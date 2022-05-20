@@ -24,7 +24,7 @@ class Solution {
             dp1[i] = Math.max(dp1[i - 2] + sticker[i], dp1[i - 1]);
             dp2[i] = Math.max(dp2[i - 2] + sticker[i], dp2[i - 1]);
         }
-
+        
         int n = sticker.length - 1;
         dp1[n] = Math.max(dp1[n - 1], dp1[n - 2]);
 
