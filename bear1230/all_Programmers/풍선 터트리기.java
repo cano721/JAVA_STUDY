@@ -9,6 +9,7 @@ class Solution {
 			tmp = fmin[i];
 
 		}
+		
 		tmp = Integer.MAX_VALUE;
 		for (int j = a.length - 1; j >= 0; j--) {
 			bmin[j] = Math.min(tmp, a[j]);
