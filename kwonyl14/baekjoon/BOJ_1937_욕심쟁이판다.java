@@ -29,7 +29,6 @@ public class BOJ_1937_욕심쟁이판다 {
 
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
-                if (memo[i][j] > 0) continue;
                 dfs(i, j);
             }
         }
@@ -37,6 +36,8 @@ public class BOJ_1937_욕심쟁이판다 {
     }
 
     private static int dfs(int r, int c) {
+        if (memo[r][c] > 0) return memo[r][c];
+
         int now = 1;
         int max = 0;
         for (int i = 0; i < 4; i++) {
@@ -44,12 +45,9 @@ public class BOJ_1937_욕심쟁이판다 {
             int nc = c + dc[i];
 
             if (nr < 0 || nc < 0 || nr >= N || nc >= N) continue;
-            if (map[nr][nc] < map[r][c]) continue;
-            if (memo[nr][nc] > 0) {
-                max = Math.max(max, memo[nr][nc]);
-            } else {
-                max = Math.max(max, dfs(nr, nc));
-            }
+            if (map[nr][nc] <= map[r][c]) continue;
+
+            max = Math.max(max, dfs(nr, nc));
         }
 
         now += max;
