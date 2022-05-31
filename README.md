@@ -68,10 +68,10 @@
   - 매 월 2회만 사용가능 하며, 이월 되지 않습니다!
   - 월 1일에 초기화 됩니다.
 
-**[5월 패스권 사용]**
+**[6월 패스권 사용]**
 
-1. bear1230, moyu0306, kwonyl14, elwlahd555, rave189, cladren123
-2. moyu0306, bear1230, elwlahd555,kwonyl14, rave189, cladren123
+1. 
+2. 
 
 ### 참가자
 
